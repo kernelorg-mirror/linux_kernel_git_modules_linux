@@ -2,7 +2,6 @@
 #ifndef __LINUX_MUTEX_TYPES_H
 #define __LINUX_MUTEX_TYPES_H
 
-#include <linux/atomic.h>
 #include <linux/lockdep_types.h>
 #include <linux/osq_lock_types.h>
 #include <linux/spinlock_types.h>

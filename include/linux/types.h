@@ -197,6 +197,12 @@ typedef struct {
 } atomic64_t;
 #endif
 
+#ifdef CONFIG_64BIT
+typedef atomic64_t atomic_long_t;
+#else
+typedef atomic_t atomic_long_t;
+#endif
+
 typedef struct {
 	atomic_t refcnt;
 } rcuref_t;

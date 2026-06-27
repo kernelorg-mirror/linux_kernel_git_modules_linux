@@ -3,7 +3,6 @@
 #define _LINUX_UNWIND_USER_DEFERRED_TYPES_H
 
 #include <linux/types.h>
-#include <linux/atomic.h>
 
 struct unwind_cache {
 	unsigned long		unwind_completed;

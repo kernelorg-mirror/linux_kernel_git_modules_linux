@@ -2,7 +2,6 @@
 #ifndef _LINUX_WORKQUEUE_TYPES_H
 #define _LINUX_WORKQUEUE_TYPES_H
 
-#include <linux/atomic.h>
 #include <linux/lockdep_types.h>
 #include <linux/timer_types.h>
 #include <linux/types.h>
