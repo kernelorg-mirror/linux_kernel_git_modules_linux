@@ -4,7 +4,7 @@
 
 #include <linux/atomic.h>
 #include <linux/lockdep_types.h>
-#include <linux/osq_lock.h>
+#include <linux/osq_lock_types.h>
 #include <linux/spinlock_types.h>
 #include <linux/types.h>
 
