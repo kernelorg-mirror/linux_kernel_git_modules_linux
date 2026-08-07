@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/stringify.h>
 #include <linux/kobject.h>
-#include <linux/moduleparam.h>
+#include <linux/module_info.h>
 #include <linux/jump_label.h>
 #include <linux/export.h>
 #include <linux/rbtree_latch.h>
@@ -31,8 +31,6 @@
 
 #include <uapi/linux/elf.h>
 #include <asm/module.h>
-
-#define MODULE_NAME_LEN __MODULE_NAME_LEN
 
 struct modversion_info {
 	unsigned long crc;

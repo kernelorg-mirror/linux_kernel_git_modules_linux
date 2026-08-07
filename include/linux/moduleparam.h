@@ -7,36 +7,18 @@
 #include <linux/build_bug.h>
 #include <linux/compiler.h>
 #include <linux/init.h>
+#include <linux/module_info.h>
 #include <linux/stringify.h>
 #include <linux/sysfs.h>
 #include <linux/types.h>
-
-/*
- * The maximum module name length, including the NUL byte.
- * Chosen so that structs with an unsigned long line up, specifically
- * modversion_info.
- */
-#define __MODULE_NAME_LEN (64 - sizeof(unsigned long))
 
 /* You can override this manually, but generally this should match the
    module name. */
 #ifdef MODULE
 #define MODULE_PARAM_PREFIX /* empty */
-#define __MODULE_INFO_PREFIX /* empty */
 #else
 #define MODULE_PARAM_PREFIX KBUILD_MODNAME "."
-/* We cannot use MODULE_PARAM_PREFIX because some modules override it. */
-#define __MODULE_INFO_PREFIX KBUILD_MODNAME "."
 #endif
-
-/* Generic info of form tag = "info" */
-#define MODULE_INFO(tag, info)					  \
-	static_assert(						  \
-		sizeof(info) - 1 == __builtin_strlen(info),	  \
-		"MODULE_INFO(" #tag ", ...) contains embedded NUL byte"); \
-	static const char __UNIQUE_ID(modinfo)[]			  \
-		__used __section(".modinfo") __aligned(1)		  \
-		= __MODULE_INFO_PREFIX __stringify(tag) "=" info
 
 #define __MODULE_PARM_TYPE(name, _type)					  \
 	MODULE_INFO(parmtype, #name ":" _type)
@@ -297,7 +279,7 @@ struct kparam_array
 
 /* This is the fundamental function for registering boot/module parameters. */
 #define __module_param_call(prefix, name, ops, arg, perm, level, flags)	\
-	static_assert(sizeof(""prefix) - 1 <= __MODULE_NAME_LEN);	\
+	static_assert(sizeof(""prefix) - 1 <= MODULE_NAME_LEN);		\
 	static const char __param_str_##name[] = prefix #name;		\
 	static struct kernel_param __moduleparam_const __param_##name	\
 	__used __section("__param")					\
