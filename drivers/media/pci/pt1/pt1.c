@@ -14,6 +14,7 @@
 #include <linux/hrtimer.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 #include <linux/pci.h>

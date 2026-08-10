@@ -10,6 +10,7 @@
 #define pr_fmt(fmt) "zfcp: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <linux/slab.h>
 #include <scsi/fc/fc_fcp.h>

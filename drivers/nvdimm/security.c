@@ -2,6 +2,7 @@
 /* Copyright(c) 2018 Intel Corporation. All rights reserved. */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/device.h>
 #include <linux/ndctl.h>
 #include <linux/slab.h>

@@ -11,6 +11,7 @@
 #include <linux/slab.h>
 #include <sound/core.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/hda_codec.h>
 #include "hda_local.h"
 

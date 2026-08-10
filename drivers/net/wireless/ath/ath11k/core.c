@@ -6,6 +6,7 @@
 
 #include <linux/export.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/remoteproc.h>
 #include <linux/firmware.h>

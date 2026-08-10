@@ -18,6 +18,7 @@
 #include <linux/ioprio.h>
 #include <linux/kdev_t.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/sched/signal.h>
 #include <linux/err.h>
 #include <linux/blkdev.h>

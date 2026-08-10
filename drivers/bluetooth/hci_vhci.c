@@ -9,6 +9,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/unaligned.h>
 
 #include <linux/atomic.h>

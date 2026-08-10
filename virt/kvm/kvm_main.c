@@ -15,6 +15,7 @@
 #include <linux/kvm_host.h>
 #include <linux/kvm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/errno.h>
 #include <linux/percpu.h>
 #include <linux/mm.h>

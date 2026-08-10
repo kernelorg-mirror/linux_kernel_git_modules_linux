@@ -5,6 +5,7 @@
  */
 #include <linux/pci.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "net_driver.h"
 #include "efx.h"
 #include "efx_channels.h"

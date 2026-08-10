@@ -10,6 +10,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blkdev.h>
 #include <linux/kthread.h>
 #include <linux/sched.h>

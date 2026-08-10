@@ -10,6 +10,7 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/firmware.h>
 
 #include "aic94xx.h"

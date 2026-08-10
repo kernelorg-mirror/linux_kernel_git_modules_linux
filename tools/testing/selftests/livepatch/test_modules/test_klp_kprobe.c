@@ -4,6 +4,7 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kprobes.h>
 
 static bool has_post_handler = true;

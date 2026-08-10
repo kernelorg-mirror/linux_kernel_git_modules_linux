@@ -7,6 +7,7 @@
 #include <linux/math64.h>
 #include <linux/mhi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/time64.h>
 #include <linux/timer.h>
 

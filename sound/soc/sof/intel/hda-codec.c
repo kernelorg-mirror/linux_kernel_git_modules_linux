@@ -6,6 +6,7 @@
 //
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/hdaudio_ext.h>
 #include <sound/hda_register.h>
 #include <sound/hda_codec.h>

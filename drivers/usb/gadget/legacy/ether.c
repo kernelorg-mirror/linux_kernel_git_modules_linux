@@ -89,6 +89,7 @@ static inline bool has_rndis(void)
 }
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "u_ecm.h"
 #include "u_gether.h"

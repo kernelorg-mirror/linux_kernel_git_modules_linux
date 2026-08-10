@@ -9,6 +9,7 @@
 #include <linux/usb/input.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #define DRIVER_DESC    "ATI/Philips USB RF remote driver"
 

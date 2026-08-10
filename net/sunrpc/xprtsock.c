@@ -23,6 +23,7 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/capability.h>
 #include <linux/pagemap.h>
 #include <linux/errno.h>

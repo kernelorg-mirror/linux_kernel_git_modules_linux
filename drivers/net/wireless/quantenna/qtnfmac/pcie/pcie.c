@@ -2,6 +2,7 @@
 /* Copyright (c) 2018 Quantenna Communications, Inc. All rights reserved. */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/printk.h>
 #include <linux/pci.h>
 #include <linux/spinlock.h>

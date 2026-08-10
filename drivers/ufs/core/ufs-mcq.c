@@ -10,6 +10,7 @@
 #include <linux/unaligned.h>
 #include <linux/dma-mapping.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include "ufshcd-priv.h"
 #include <linux/delay.h>

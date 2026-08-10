@@ -7,6 +7,7 @@
 
 #include <linux/hid.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/printk.h>
 
 #include "hid-ids.h"

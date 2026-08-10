@@ -9,6 +9,7 @@
 #include <linux/cleanup.h>
 #include <linux/firmware.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/string.h>
 #include <sound/hdaudio.h>

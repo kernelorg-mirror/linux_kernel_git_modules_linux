@@ -15,6 +15,7 @@
 #include <linux/kernel.h>
 #include <linux/media.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ratelimit.h>
 #include <linux/regmap.h>
 #include <linux/slab.h>

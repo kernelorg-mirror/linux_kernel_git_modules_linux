@@ -26,6 +26,7 @@
 #include <linux/io.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mii.h>
 #include <linux/mdio/mdio-regmap.h>
 #include <linux/netdevice.h>

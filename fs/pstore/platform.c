@@ -16,6 +16,7 @@
 #include <linux/console.h>
 #include <linux/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pstore.h>
 #include <linux/string.h>
 #include <linux/timer.h>

@@ -48,6 +48,7 @@ static int options[MAX_UNITS];
 
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/errno.h>
 #include <linux/pci.h>

@@ -15,6 +15,7 @@
 #include <linux/pci.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "carminefb.h"
 #include "carminefb_regs.h"

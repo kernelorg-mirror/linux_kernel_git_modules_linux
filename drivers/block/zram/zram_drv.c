@@ -15,6 +15,7 @@
 #define pr_fmt(fmt) "zram: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/bio.h>
 #include <linux/bitops.h>

@@ -17,6 +17,7 @@
 #include <linux/vmalloc.h>
 #include <linux/shrinker.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/rbtree.h>
 #include <linux/stacktrace.h>
 #include <linux/jump_label.h>

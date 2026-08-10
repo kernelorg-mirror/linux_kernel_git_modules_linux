@@ -9,6 +9,7 @@
 #include <linux/font.h>
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include <media/media-device.h>
 #include <media/tpg/v4l2-tpg.h>

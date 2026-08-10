@@ -12,6 +12,7 @@
 #include <linux/workqueue.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mm.h>
 #include <linux/memory_hotplug.h>
 #include <linux/memory.h>

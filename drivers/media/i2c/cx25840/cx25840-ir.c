@@ -10,6 +10,7 @@
 #include <linux/slab.h>
 #include <linux/kfifo.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <media/drv-intf/cx25840.h>
 #include <media/rc-core.h>
 

@@ -26,6 +26,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/math64.h>
 #include <net/tcp.h>
 #include <linux/inet_diag.h>

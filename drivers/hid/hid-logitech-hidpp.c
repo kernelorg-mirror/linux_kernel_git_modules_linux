@@ -15,6 +15,7 @@
 #include <linux/usb.h>
 #include <linux/hid.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/sched.h>
 #include <linux/sched/clock.h>

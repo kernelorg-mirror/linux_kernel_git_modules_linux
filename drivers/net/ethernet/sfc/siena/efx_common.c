@@ -11,6 +11,7 @@
 #include "net_driver.h"
 #include <linux/filter.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <net/gre.h>
 #include "efx_common.h"

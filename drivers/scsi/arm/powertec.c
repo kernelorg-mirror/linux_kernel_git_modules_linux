@@ -5,6 +5,7 @@
  *  Copyright (C) 1997-2005 Russell King
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blkdev.h>
 #include <linux/kernel.h>
 #include <linux/string.h>

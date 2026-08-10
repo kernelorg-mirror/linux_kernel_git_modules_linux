@@ -4,6 +4,7 @@
 
 #include <linux/dmi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include "main.h"
 #include "pci.h"

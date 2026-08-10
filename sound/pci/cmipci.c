@@ -15,6 +15,7 @@
 #include <linux/slab.h>
 #include <linux/gameport.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <sound/core.h>
 #include <sound/info.h>

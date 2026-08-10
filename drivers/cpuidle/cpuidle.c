@@ -22,6 +22,7 @@
 #include <linux/ktime.h>
 #include <linux/hrtimer.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/suspend.h>
 #include <linux/tick.h>
 #include <linux/mmu_context.h>

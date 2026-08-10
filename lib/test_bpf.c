@@ -9,6 +9,7 @@
 
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/filter.h>
 #include <linux/bpf.h>
 #include <linux/skbuff.h>

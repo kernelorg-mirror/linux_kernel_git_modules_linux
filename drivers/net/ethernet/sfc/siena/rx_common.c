@@ -10,6 +10,7 @@
 
 #include "net_driver.h"
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/iommu.h>
 #include <net/rps.h>
 #include "efx.h"

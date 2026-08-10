@@ -10,6 +10,7 @@
 #include <linux/security.h>
 #include <linux/cred.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/posix_acl.h>
 #include <linux/posix_acl_xattr.h>
 #include <linux/atomic.h>

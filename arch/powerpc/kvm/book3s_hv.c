@@ -39,6 +39,7 @@
 #include <linux/kvm_irqfd.h>
 #include <linux/irqbypass.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/compiler.h>
 #include <linux/of.h>
 #include <linux/irqdomain.h>

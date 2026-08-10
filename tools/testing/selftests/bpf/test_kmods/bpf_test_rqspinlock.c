@@ -4,6 +4,7 @@
 #include <linux/smp.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/prandom.h>
 #include <linux/ktime.h>
 #include <asm/rqspinlock.h>

@@ -3,6 +3,7 @@
 #include <linux/bug.h>
 #include <linux/aperture.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 
 #include <drm/clients/drm_client_setup.h>

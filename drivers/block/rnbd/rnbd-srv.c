@@ -10,6 +10,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME " L" __stringify(__LINE__) ": " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blkdev.h>
 #include <linux/fs_struct.h>
 

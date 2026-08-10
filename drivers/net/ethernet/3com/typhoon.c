@@ -99,6 +99,7 @@ static const int multicast_filter_limit = 32;
 #define pr_fmt(fmt)		KBUILD_MODNAME " " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/string.h>

@@ -35,6 +35,7 @@
 #include <linux/compaction.h>
 #include <linux/rmap.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/node.h>
 
 #include <asm/tlbflush.h>

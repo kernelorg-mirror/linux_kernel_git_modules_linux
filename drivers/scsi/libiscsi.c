@@ -15,6 +15,7 @@
 #include <linux/slab.h>
 #include <linux/sched/signal.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/unaligned.h>
 #include <net/tcp.h>
 #include <scsi/scsi_cmnd.h>

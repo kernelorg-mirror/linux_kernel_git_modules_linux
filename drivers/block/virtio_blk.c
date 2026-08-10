@@ -5,6 +5,7 @@
 #include <linux/blkdev.h>
 #include <linux/hdreg.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/interrupt.h>
 #include <linux/virtio.h>

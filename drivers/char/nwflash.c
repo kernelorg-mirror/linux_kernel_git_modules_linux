@@ -16,6 +16,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <linux/fs.h>
 #include <linux/errno.h>

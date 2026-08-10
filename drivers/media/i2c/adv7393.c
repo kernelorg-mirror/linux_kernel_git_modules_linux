@@ -28,6 +28,7 @@
 #include <linux/device.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/videodev2.h>
 #include <linux/uaccess.h>
 

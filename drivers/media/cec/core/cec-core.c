@@ -21,6 +21,7 @@
 #include <linux/list.h>
 #include <linux/minmax.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/printk.h>
 #include <linux/seq_file.h>

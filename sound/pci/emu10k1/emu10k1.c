@@ -10,6 +10,7 @@
 #include <linux/string.h>
 #include <linux/time.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/emu10k1.h>
 #include <sound/initval.h>

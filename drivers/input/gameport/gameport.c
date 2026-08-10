@@ -12,6 +12,7 @@
 #include <linux/export.h>
 #include <linux/stddef.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <linux/ioport.h>
 #include <linux/init.h>

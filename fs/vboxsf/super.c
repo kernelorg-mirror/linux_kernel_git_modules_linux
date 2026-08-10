@@ -14,6 +14,7 @@
 #include <linux/fs_parser.h>
 #include <linux/magic.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/nls.h>
 #include <linux/statfs.h>
 #include <linux/vbox_utils.h>

@@ -28,6 +28,7 @@
 
 #include <linux/aperture.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/pci.h>
 

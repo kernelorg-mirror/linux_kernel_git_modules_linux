@@ -20,6 +20,7 @@
 #include <linux/irq.h>
 #include <linux/mii.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>

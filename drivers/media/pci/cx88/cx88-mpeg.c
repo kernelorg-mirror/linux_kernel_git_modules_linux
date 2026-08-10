@@ -12,6 +12,7 @@
 #include "cx88.h"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/init.h>
 #include <linux/device.h>

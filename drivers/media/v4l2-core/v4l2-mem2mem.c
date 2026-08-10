@@ -10,6 +10,7 @@
  * Marek Szyprowski, <m.szyprowski@samsung.com>
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/sched.h>
 #include <linux/slab.h>
 

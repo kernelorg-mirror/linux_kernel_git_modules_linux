@@ -10,6 +10,7 @@
 #include <linux/kthread.h>
 #include <linux/mutex.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/string.h>
 #include <linux/sched/signal.h>

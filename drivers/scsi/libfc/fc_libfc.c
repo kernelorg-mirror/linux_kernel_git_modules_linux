@@ -10,6 +10,7 @@
 #include <linux/scatterlist.h>
 #include <linux/crc32.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <scsi/libfc.h>
 

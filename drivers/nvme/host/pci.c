@@ -17,6 +17,7 @@
 #include <linux/memremap.h>
 #include <linux/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/nodemask.h>
 #include <linux/once.h>

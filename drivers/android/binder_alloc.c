@@ -11,6 +11,7 @@
 #include <linux/list.h>
 #include <linux/sched/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/rtmutex.h>
 #include <linux/rbtree.h>
 #include <linux/seq_file.h>

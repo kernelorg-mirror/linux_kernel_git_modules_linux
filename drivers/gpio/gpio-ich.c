@@ -10,6 +10,7 @@
 #include <linux/ioport.h>
 #include <linux/mfd/lpc_ich.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 
 #define DRV_NAME "gpio_ich"

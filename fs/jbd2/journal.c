@@ -20,6 +20,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/time.h>
 #include <linux/fs.h>
 #include <linux/jbd2.h>

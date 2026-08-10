@@ -11,6 +11,7 @@
 #include <linux/hidraw.h>
 #include <linux/leds.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 
 #include "hid-ids.h"

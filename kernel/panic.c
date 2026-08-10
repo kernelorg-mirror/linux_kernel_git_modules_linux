@@ -18,6 +18,7 @@
 #include <linux/notifier.h>
 #include <linux/vt_kern.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/random.h>
 #include <linux/ftrace.h>
 #include <linux/reboot.h>

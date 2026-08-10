@@ -21,6 +21,7 @@
 #include <linux/input.h>
 #include <linux/irq_work.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include <linux/serial_core.h>
 

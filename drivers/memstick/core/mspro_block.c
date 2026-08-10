@@ -17,6 +17,7 @@
 #include <linux/mutex.h>
 #include <linux/memstick.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #define DRIVER_NAME "mspro_block"
 

@@ -10,6 +10,7 @@
 #include <linux/dmi.h>
 #include <linux/i2c.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/notifier.h>
 #include <linux/platform_device.h>
 #include <linux/workqueue.h>

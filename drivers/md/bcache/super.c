@@ -22,6 +22,7 @@
 #include <linux/kthread.h>
 #include <linux/workqueue.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/random.h>
 #include <linux/reboot.h>
 #include <linux/sysfs.h>

@@ -4,6 +4,7 @@
  * Copyright 2007 Nuova Systems, Inc.  All rights reserved.
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mempool.h>
 #include <linux/string.h>
 #include <linux/slab.h>

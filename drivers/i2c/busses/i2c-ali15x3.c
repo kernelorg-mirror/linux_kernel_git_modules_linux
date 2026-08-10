@@ -47,6 +47,7 @@
 /* Note: we assume there can only be one ALI15X3, with one SMBus interface */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/kernel.h>
 #include <linux/stddef.h>

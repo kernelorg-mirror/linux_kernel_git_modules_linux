@@ -9,6 +9,7 @@
 #include <linux/etherdevice.h>
 #include <linux/netdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "hinic_hw_dev.h"
 #include "hinic_dev.h"

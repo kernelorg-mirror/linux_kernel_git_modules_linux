@@ -22,6 +22,7 @@
 /* Bluetooth SCO sockets. */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
 #include <linux/sched/signal.h>

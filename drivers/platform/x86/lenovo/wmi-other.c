@@ -40,6 +40,7 @@
 #include <linux/kobject.h>
 #include <linux/limits.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_profile.h>
 #include <linux/power_supply.h>
 #include <linux/types.h>

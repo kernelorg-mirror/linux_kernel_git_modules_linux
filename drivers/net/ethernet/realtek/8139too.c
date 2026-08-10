@@ -94,6 +94,7 @@
 #define DRV_NAME	"8139too"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/compiler.h>
 #include <linux/pci.h>

@@ -9,6 +9,7 @@
 #include <linux/delay.h>
 #include <linux/vmalloc.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "hfi.h"
 #include "chip_registers.h"

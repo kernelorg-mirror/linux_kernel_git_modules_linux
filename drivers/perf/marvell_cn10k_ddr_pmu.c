@@ -8,6 +8,7 @@
 #include <linux/init.h>
 #include <linux/io.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/perf_event.h>
 #include <linux/hrtimer.h>

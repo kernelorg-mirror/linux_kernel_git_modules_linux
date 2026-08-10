@@ -21,6 +21,7 @@
 #include <linux/crc32.h>
 #include <linux/eeprom_93cx6.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <net/mac80211.h>
 
 #include "adm8211.h"

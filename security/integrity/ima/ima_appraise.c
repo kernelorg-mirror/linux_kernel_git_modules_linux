@@ -6,6 +6,7 @@
  * Mimi Zohar <zohar@us.ibm.com>
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/file.h>
 #include <linux/binfmts.h>

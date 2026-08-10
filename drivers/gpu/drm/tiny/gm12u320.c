@@ -4,6 +4,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pm.h>
 #include <linux/usb.h>
 

@@ -9,6 +9,7 @@
 #include <linux/delay.h>
 #include <linux/kthread.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ntb.h>
 #include <linux/pci.h>
 #include <linux/switchtec.h>

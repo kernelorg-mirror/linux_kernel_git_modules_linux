@@ -17,6 +17,7 @@
 #include <linux/delay.h>
 #include <linux/pnp.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <asm/dma.h>
 #include <sound/core.h>

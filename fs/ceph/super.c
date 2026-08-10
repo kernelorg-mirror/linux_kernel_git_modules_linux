@@ -8,6 +8,7 @@
 #include <linux/inet.h>
 #include <linux/in6.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mount.h>
 #include <linux/fs_context.h>
 #include <linux/fs_parser.h>

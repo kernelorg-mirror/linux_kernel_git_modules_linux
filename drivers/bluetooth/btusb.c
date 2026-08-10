@@ -8,6 +8,7 @@
 
 #include <linux/dmi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/usb.h>
 #include <linux/usb/quirks.h>
 #include <linux/firmware.h>

@@ -16,6 +16,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "rsi_sdio.h"
 #include "rsi_common.h"
 #include "rsi_coex.h"

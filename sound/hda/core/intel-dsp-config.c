@@ -5,6 +5,7 @@
 #include <linux/bits.h>
 #include <linux/dmi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/soundwire/sdw.h>
 #include <linux/soundwire/sdw_intel.h>

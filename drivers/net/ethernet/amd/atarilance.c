@@ -48,6 +48,7 @@ static const char version[] = "atarilance.c: v1.3 04/04/96 "
 #include <linux/netdevice.h>
 #include <linux/etherdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/stddef.h>
 #include <linux/kernel.h>
 #include <linux/string.h>

@@ -14,6 +14,7 @@
 #include <linux/device.h>
 #include <linux/kernel_read_file.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/initrd.h>
 #include <linux/timer.h>

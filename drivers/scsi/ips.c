@@ -192,6 +192,7 @@
 #include "ips.h"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <linux/stat.h>
 

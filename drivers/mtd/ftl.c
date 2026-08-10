@@ -56,6 +56,7 @@
 ======================================================================*/
 #include <linux/mtd/blktrans.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mtd/mtd.h>
 /*#define PSYCHO_DEBUG */
 

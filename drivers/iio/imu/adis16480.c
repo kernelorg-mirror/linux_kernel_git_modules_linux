@@ -14,6 +14,7 @@
 #include <linux/kernel.h>
 #include <linux/spi/spi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/lcm.h>
 #include <linux/property.h>
 #include <linux/swab.h>

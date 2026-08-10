@@ -37,6 +37,7 @@
 #include <linux/errno.h>
 #include <linux/sched.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <asm/io.h>
 #include <rdma/ib_mad.h>

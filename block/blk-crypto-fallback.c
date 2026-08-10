@@ -16,6 +16,7 @@
 #include <linux/crypto.h>
 #include <linux/mempool.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/random.h>
 #include <linux/scatterlist.h>
 

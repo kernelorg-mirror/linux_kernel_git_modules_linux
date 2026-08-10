@@ -25,6 +25,7 @@
 #include <linux/rio_ids.h>
 #include <linux/rio_regs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/spinlock.h>
 #include <linux/timer.h>
 #include <linux/sched.h>

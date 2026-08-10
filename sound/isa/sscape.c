@@ -16,6 +16,7 @@
 #include <linux/pnp.h>
 #include <linux/spinlock.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <asm/dma.h>
 #include <sound/core.h>
 #include <sound/wss.h>

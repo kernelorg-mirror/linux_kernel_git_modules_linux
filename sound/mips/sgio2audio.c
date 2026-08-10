@@ -18,6 +18,7 @@
 #include <linux/slab.h>
 #include <linux/string.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <asm/ip32/ip32_ints.h>
 #include <asm/ip32/mace.h>

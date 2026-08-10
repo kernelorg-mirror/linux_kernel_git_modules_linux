@@ -20,6 +20,7 @@
 #include "lkdtm.h"
 #include <linux/fs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/buffer_head.h>
 #include <linux/kprobes.h>
 #include <linux/list.h>

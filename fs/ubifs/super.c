@@ -17,6 +17,7 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ctype.h>
 #include <linux/kthread.h>
 #include <linux/fs_context.h>

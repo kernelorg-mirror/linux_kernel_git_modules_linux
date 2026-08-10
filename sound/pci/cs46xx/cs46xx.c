@@ -14,6 +14,7 @@
 #include <linux/time.h>
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/core.h>
 #include "cs46xx.h"
 #include <sound/initval.h>

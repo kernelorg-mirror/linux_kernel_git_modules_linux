@@ -6,6 +6,7 @@
 #include <linux/kernel.h>
 #include <linux/maple_tree.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/printk.h>
 #include <linux/random.h>
 #include <linux/slab.h>

@@ -8,6 +8,7 @@
 #include <linux/interrupt.h>
 #include <linux/limits.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <net/page_pool/helpers.h>
 

@@ -13,6 +13,7 @@
 #include <linux/linux_logo.h>
 #include <linux/stddef.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #ifdef CONFIG_M68K
 #include <asm/setup.h>

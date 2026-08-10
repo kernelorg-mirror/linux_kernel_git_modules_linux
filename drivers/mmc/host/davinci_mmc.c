@@ -21,6 +21,7 @@
 #include <linux/mmc/mmc.h>
 #include <linux/mmc/slot-gpio.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_data/mmc-davinci.h>
 #include <linux/platform_device.h>
 #include <linux/property.h>

@@ -34,6 +34,7 @@
 #include <linux/leds.h>
 #include <linux/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/nospec.h>
 #include <linux/notifier.h>
 #include <linux/reboot.h>

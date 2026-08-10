@@ -7,6 +7,7 @@
 #include <linux/init.h>
 #include <linux/sched.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/device.h>
 #include <linux/file.h>
 #include <linux/slab.h>

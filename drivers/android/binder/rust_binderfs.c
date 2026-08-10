@@ -16,6 +16,7 @@
 #include <linux/major.h>
 #include <linux/miscdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/mount.h>
 #include <linux/fs_parser.h>

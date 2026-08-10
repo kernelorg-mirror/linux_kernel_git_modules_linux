@@ -9,6 +9,7 @@
 #define pr_fmt(fmt) "xen-blkback: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kthread.h>
 #include <linux/pagemap.h>
 #include <xen/events.h>

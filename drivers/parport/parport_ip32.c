@@ -88,6 +88,7 @@
 #include <linux/jiffies.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/parport.h>
 #include <linux/sched/signal.h>
 #include <linux/slab.h>

@@ -14,6 +14,7 @@
  * Marek Szyprowski, <m.szyprowski@samsung.com>
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/delay.h>
 #include <linux/fs.h>
 #include <linux/sched.h>

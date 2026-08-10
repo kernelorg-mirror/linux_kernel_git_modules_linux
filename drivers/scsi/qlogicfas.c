@@ -16,6 +16,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blkdev.h>		/* to get disk capacity */
 #include <linux/kernel.h>
 #include <linux/string.h>

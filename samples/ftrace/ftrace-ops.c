@@ -5,6 +5,7 @@
 #include <linux/ftrace.h>
 #include <linux/ktime.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <asm/barrier.h>
 

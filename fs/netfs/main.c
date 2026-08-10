@@ -6,6 +6,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/export.h>
 #include <linux/mempool.h>
 #include <linux/proc_fs.h>

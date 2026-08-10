@@ -8,6 +8,7 @@
 
 #include <linux/acpi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/dmi.h>
 #include <linux/pci.h>
 #include <acpi/nhlt.h>

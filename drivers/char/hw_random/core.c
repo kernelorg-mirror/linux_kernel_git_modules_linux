@@ -20,6 +20,7 @@
 #include <linux/lockdep.h>
 #include <linux/miscdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/notifier.h>
 #include <linux/random.h>
 #include <linux/rcupdate.h>

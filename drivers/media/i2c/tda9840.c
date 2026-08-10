@@ -15,6 +15,7 @@
 
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ioctl.h>
 #include <linux/slab.h>
 #include <linux/i2c.h>

@@ -7,6 +7,7 @@
 #include <linux/vmalloc.h>
 #include <linux/hash.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/seq_file.h>
 #include <rdma/rdma_vt.h>
 #include <rdma/rdmavt_qp.h>

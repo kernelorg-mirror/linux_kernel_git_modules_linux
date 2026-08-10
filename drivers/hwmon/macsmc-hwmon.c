@@ -25,6 +25,7 @@
 #include <linux/math64.h>
 #include <linux/mfd/macsmc.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/platform_device.h>
 

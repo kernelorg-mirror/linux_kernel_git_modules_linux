@@ -12,6 +12,7 @@
 #define pr_fmt(fmt) "ACPI: OSL: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/panic.h>
 #include <linux/reboot.h>

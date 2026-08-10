@@ -13,6 +13,7 @@
 
 #include <linux/io.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of_net.h>
 #include <linux/of_address.h>
 #include <linux/if_vlan.h>

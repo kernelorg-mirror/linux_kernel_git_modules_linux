@@ -20,6 +20,7 @@
 #include <linux/iopoll.h>
 #include <linux/jump_label.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/msi.h>
 #include <linux/of.h>
 #include <linux/of_address.h>

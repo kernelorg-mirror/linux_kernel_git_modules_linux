@@ -9,6 +9,7 @@
 
 #include <linux/firmware.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 
 #include <drm/drm_connector.h>

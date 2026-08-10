@@ -13,6 +13,7 @@
 #include <linux/wait.h>
 #include <linux/fs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/usb.h>
 #include <linux/delay.h>
 #include <linux/time.h>

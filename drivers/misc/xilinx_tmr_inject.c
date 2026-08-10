@@ -11,6 +11,7 @@
 
 #include <asm/xilinx_mb_manager.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/debugfs.h>
 #include <linux/platform_device.h>

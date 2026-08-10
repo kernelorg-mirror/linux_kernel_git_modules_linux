@@ -40,6 +40,7 @@
 #include <linux/raid/pq.h>
 #include <linux/async_tx.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/async.h>
 #include <linux/seq_file.h>
 #include <linux/cpu.h>

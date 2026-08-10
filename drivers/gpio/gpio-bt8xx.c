@@ -33,6 +33,7 @@
 
 #include <linux/cleanup.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/spinlock.h>
 #include <linux/gpio/driver.h>

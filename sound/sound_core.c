@@ -9,6 +9,7 @@
  * First, the common part.
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/device.h>
 #include <linux/err.h>
 #include <linux/kdev_t.h>

@@ -21,6 +21,7 @@
 #include <linux/kstrtox.h>
 #include <linux/math64.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/limits.h>
 #include <linux/pm.h>

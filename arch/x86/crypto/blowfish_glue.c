@@ -14,6 +14,7 @@
 #include <linux/crypto.h>
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 
 #include "ecb_cbc_helpers.h"

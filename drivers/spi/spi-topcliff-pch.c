@@ -13,6 +13,7 @@
 #include <linux/sched.h>
 #include <linux/spi/spidev.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/device.h>
 #include <linux/platform_device.h>
 

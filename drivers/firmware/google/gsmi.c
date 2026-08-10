@@ -29,6 +29,7 @@
 #include <linux/reboot.h>
 #include <linux/efi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ucs2_string.h>
 #include <linux/suspend.h>
 

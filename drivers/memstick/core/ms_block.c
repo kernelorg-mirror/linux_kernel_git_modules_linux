@@ -11,6 +11,7 @@
 #define pr_fmt(fmt) DRIVER_NAME ": " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blk-mq.h>
 #include <linux/memstick.h>
 #include <linux/idr.h>

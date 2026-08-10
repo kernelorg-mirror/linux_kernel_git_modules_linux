@@ -13,6 +13,7 @@
 #include <linux/blkdev.h>
 #include <linux/seq_file.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/string_choices.h>
 #include <trace/events/block.h>

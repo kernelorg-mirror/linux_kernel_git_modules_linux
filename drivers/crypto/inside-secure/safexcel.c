@@ -12,6 +12,7 @@
 #include <linux/firmware.h>
 #include <linux/interrupt.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of_platform.h>
 #include <linux/of_irq.h>
 #include <linux/pci.h>

@@ -51,6 +51,7 @@
 #include <linux/watchdog.h>
 #include <linux/cpumask.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/delay.h>
 #include <linux/cpu.h>
 #include <linux/irq.h>

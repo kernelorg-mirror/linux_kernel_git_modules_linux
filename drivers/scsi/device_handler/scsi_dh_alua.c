@@ -9,6 +9,7 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/unaligned.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_proto.h>

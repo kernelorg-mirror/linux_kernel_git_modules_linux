@@ -8,6 +8,7 @@
  */
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/fs.h>
 #include <linux/mm.h>
 #include <linux/i2c.h>

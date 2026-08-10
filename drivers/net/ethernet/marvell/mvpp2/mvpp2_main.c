@@ -16,6 +16,7 @@
 #include <linux/inetdevice.h>
 #include <linux/mbus.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mfd/syscon.h>
 #include <linux/interrupt.h>
 #include <linux/cpumask.h>

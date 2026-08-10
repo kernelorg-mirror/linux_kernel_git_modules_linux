@@ -10,6 +10,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/device/faux.h>
 #include <linux/dma-mapping.h>
 

@@ -12,6 +12,7 @@
 #include <linux/panic_notifier.h>
 #include <linux/kref.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/pci.h>
 #include <linux/pci_regs.h>

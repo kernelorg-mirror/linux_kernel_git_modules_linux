@@ -18,6 +18,7 @@
 #include <linux/mdio.h>
 #include <linux/minmax.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/of.h>
 #include <linux/phy.h>

@@ -26,6 +26,7 @@
 /* Bluetooth L2CAP core. */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <linux/debugfs.h>
 #include <linux/crc16.h>

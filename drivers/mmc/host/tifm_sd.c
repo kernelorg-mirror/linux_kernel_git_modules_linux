@@ -13,6 +13,7 @@
 #include <linux/highmem.h>
 #include <linux/scatterlist.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/workqueue.h>
 #include <asm/io.h>
 

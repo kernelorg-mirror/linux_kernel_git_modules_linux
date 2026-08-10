@@ -30,6 +30,7 @@
  * SOFTWARE.
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/list.h>
 #include <linux/workqueue.h>
 #include <linux/skbuff.h>

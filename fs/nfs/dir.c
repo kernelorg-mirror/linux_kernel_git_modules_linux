@@ -20,6 +20,7 @@
 
 #include <linux/compat.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/time.h>
 #include <linux/errno.h>
 #include <linux/stat.h>

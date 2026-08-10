@@ -38,6 +38,7 @@
 #include <linux/input.h>
 #include <linux/hid.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/workqueue.h>
 #include <linux/mutex.h>
 #include <linux/rcupdate.h>

@@ -19,6 +19,7 @@
 #include <linux/init.h>
 #include <linux/key-type.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/parser.h>
 #include <linux/random.h>
 #include <linux/rcupdate.h>

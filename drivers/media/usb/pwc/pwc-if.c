@@ -49,6 +49,7 @@
 #include <linux/init.h>
 #include <linux/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/poll.h>
 #include <linux/slab.h>
 #ifdef CONFIG_USB_PWC_INPUT_EVDEV

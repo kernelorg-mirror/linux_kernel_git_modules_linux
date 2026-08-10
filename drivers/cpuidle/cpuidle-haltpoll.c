@@ -14,6 +14,7 @@
 #include <linux/cpu.h>
 #include <linux/cpuidle.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/sched/idle.h>
 #include <linux/kvm_para.h>
 #include <linux/cpuidle_haltpoll.h>

@@ -10,6 +10,7 @@
 #include <linux/kthread.h>
 #include <linux/ftrace.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/timer.h>
 #include <linux/slab.h>
 #include <linux/string.h>

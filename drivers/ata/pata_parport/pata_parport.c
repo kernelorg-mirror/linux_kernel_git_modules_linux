@@ -5,6 +5,7 @@
  */
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/parport.h>
 #include "pata_parport.h"
 

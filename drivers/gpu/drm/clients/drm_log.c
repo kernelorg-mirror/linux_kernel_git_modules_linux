@@ -9,6 +9,7 @@
 #include <linux/init.h>
 #include <linux/iosys-map.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 
 #include <drm/drm_client.h>

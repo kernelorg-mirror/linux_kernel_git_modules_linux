@@ -9,6 +9,7 @@
 
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/delay.h>
 #include <media/drv-intf/cx25840.h>

@@ -12,6 +12,7 @@
 #include <linux/init.h>
 #include <linux/isa.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/gameport.h>
 #include <asm/dma.h>
 #include <sound/core.h>

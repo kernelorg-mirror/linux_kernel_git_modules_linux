@@ -17,6 +17,7 @@
 #include <linux/cleanup.h>
 #include <linux/acpi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <acpi/nhlt.h>
 #include <sound/hda_codec.h>

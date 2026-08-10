@@ -14,6 +14,7 @@
 #include <linux/hdreg.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/backing-dev.h>
 #include <linux/slab.h>
 #include <linux/types.h>

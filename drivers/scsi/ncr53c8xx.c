@@ -92,6 +92,7 @@
 #include <linux/ioport.h>
 #include <linux/mm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/sched.h>
 #include <linux/signal.h>
 #include <linux/spinlock.h>

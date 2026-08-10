@@ -45,6 +45,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/comedi/comedidev.h>
 #include <asm/div64.h>
 #include <linux/timer.h>

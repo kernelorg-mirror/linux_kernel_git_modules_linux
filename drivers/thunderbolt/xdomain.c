@@ -11,6 +11,7 @@
 #include <linux/delay.h>
 #include <linux/kmod.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pm_runtime.h>
 #include <linux/prandom.h>
 #include <linux/string_helpers.h>

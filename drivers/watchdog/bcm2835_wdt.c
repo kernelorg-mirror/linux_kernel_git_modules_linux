@@ -14,6 +14,7 @@
 #include <linux/types.h>
 #include <linux/mfd/bcm2835-pm.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <linux/watchdog.h>
 #include <linux/platform_device.h>

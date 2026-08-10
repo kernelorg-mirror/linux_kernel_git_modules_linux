@@ -9,6 +9,7 @@
 
 #include <linux/irq.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/vmalloc.h>
 #include <linux/platform_device.h>
 #include <linux/mmc/sdio.h>

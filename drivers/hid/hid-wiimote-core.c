@@ -12,6 +12,7 @@
 #include <linux/hid.h>
 #include <linux/input.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/spinlock.h>
 #include "hid-ids.h"

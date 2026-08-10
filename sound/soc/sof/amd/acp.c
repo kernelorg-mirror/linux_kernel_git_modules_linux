@@ -15,6 +15,7 @@
 #include <linux/acpi.h>
 #include <linux/io.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 
 #include <asm/amd/node.h>

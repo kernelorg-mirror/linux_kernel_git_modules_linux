@@ -27,6 +27,7 @@
 #include <linux/highmem.h>
 #include <linux/iommu.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mm.h>
 #include <linux/kthread.h>
 #include <linux/rbtree.h>

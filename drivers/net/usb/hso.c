@@ -44,6 +44,7 @@
 #include <linux/delay.h>
 #include <linux/netdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ethtool.h>
 #include <linux/usb.h>
 #include <linux/tty.h>

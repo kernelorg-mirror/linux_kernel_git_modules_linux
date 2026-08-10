@@ -182,6 +182,7 @@ static int print_unex = 1;
 #include <linux/mm.h>
 #include <linux/device-id/pnp.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/platform_device.h>
 #include <linux/sched.h>

@@ -15,6 +15,7 @@
 #include <linux/rtnetlink.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <net/mrp.h>
 #include <linux/unaligned.h>
 

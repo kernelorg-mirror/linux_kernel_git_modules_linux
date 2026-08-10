@@ -8,6 +8,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/errno.h>
 #include <linux/interrupt.h>
 #include <linux/tty.h>

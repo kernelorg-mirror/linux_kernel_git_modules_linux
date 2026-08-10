@@ -19,6 +19,7 @@
 #include <linux/mfd/syscon.h>
 #include <linux/math64.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/of_platform.h>
 #include <linux/of_reserved_mem.h>

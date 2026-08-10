@@ -18,6 +18,7 @@
 #include "led.h"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 static struct usb_interface *rtl92du_get_other_intf(struct ieee80211_hw *hw)
 {

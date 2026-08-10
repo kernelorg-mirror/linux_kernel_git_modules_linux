@@ -13,6 +13,7 @@
 #include <linux/blkdev.h>
 #include <linux/blk-crypto-profile.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ratelimit.h>
 #include <linux/slab.h>
 

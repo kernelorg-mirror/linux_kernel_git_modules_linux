@@ -6,6 +6,7 @@
 #include <linux/acpi.h>
 #include <linux/backlight.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_data/x86/nvidia-wmi-ec-backlight.h>
 #include <linux/types.h>
 #include <linux/wmi.h>

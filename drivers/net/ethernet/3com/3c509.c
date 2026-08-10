@@ -86,6 +86,7 @@
 #include <linux/ioport.h>
 #include <linux/isa.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/pm.h>
 #include <linux/pnp.h>

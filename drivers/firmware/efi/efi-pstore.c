@@ -2,6 +2,7 @@
 
 #include <linux/efi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pstore.h>
 #include <linux/slab.h>
 #include <linux/ucs2_string.h>

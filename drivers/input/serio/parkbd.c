@@ -41,6 +41,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/parport.h>
 #include <linux/slab.h>
 #include <linux/init.h>

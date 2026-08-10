@@ -3,6 +3,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/i2c.h>
 #include <linux/firmware.h>
 #include <media/v4l2-common.h>

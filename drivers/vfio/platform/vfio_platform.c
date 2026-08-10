@@ -5,6 +5,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/vfio.h>
 #include <linux/pm_runtime.h>

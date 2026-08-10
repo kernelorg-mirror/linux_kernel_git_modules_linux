@@ -11,6 +11,7 @@
 #include "cx231xx.h"
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/i2c.h>

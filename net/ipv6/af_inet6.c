@@ -17,6 +17,7 @@
 #define pr_fmt(fmt) "IPv6: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/capability.h>
 #include <linux/errno.h>
 #include <linux/types.h>

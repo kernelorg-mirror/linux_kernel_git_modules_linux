@@ -9,6 +9,7 @@
 //
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "ops.h"
 #include "sof-priv.h"
 #include "sof-audio.h"

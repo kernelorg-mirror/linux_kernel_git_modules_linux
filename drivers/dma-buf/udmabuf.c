@@ -9,6 +9,7 @@
 #include <linux/memfd.h>
 #include <linux/miscdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/shmem_fs.h>
 #include <linux/hugetlb.h>
 #include <linux/slab.h>

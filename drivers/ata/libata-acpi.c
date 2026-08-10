@@ -8,6 +8,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ata.h>
 #include <linux/delay.h>
 #include <linux/device.h>

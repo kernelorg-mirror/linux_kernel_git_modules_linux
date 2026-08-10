@@ -8,6 +8,7 @@
 /* In that file, frequencies are expressed in kiloHertz to avoid 32 bits overflows */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/delay.h>
 #include <linux/dvb/frontend.h>
 #include <linux/i2c.h>

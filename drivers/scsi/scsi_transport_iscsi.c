@@ -8,6 +8,7 @@
  * Copyright (C) Alex Aizman, 2004 - 2005
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <linux/bsg-lib.h>

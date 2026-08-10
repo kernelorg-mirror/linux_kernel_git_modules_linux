@@ -15,6 +15,7 @@
 #include <linux/crc32.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/dma-mapping.h>
 #include <linux/etherdevice.h>

@@ -23,6 +23,7 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/completion.h>
 #include <linux/uaccess.h>
 #include <linux/usb.h>

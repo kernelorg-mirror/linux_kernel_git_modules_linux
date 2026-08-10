@@ -48,6 +48,7 @@
 #include <linux/interrupt.h>
 #include <linux/mfd/syscon.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/omap-iommu.h>
 #include <linux/platform_device.h>
 #include <linux/property.h>

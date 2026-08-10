@@ -9,6 +9,7 @@
 #include <linux/kthread.h>
 #include <uapi/linux/sched/types.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ktime.h>
 #include <asm/local.h>
 

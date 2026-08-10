@@ -27,6 +27,7 @@
 #include <linux/platform_device.h>
 #include <linux/debugfs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ktime.h>
 #include <net/genetlink.h>
 #include <net/net_namespace.h>

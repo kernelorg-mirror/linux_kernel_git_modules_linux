@@ -16,6 +16,7 @@
 #include <linux/hrtimer_bases.h>
 #include <linux/math64.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/tlv.h>

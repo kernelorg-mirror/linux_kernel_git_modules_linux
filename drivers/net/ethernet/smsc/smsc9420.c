@@ -18,6 +18,7 @@
 #include <linux/crc32.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/unaligned.h>
 #include "smsc9420.h"
 

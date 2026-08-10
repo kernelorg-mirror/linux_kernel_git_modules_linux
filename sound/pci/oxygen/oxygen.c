@@ -45,6 +45,7 @@
 #include <linux/mutex.h>
 #include <linux/pci.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/ac97_codec.h>
 #include <sound/control.h>
 #include <sound/core.h>

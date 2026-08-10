@@ -12,6 +12,7 @@
 #include <linux/time.h>
 #include <linux/wait.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/mpu401.h>

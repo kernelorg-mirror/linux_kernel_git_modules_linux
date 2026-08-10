@@ -10,6 +10,7 @@
 
 #include <linux/firmware.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <sound/soc.h>
 #include <sound/sof.h>
 #include "sof-priv.h"

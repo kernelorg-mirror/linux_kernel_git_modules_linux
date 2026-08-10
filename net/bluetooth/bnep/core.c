@@ -23,6 +23,7 @@
 */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kthread.h>
 #include <linux/file.h>
 #include <linux/etherdevice.h>

@@ -9,6 +9,7 @@
 #include "au8522.h"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/videodev2.h>
 #include <media/v4l2-common.h>

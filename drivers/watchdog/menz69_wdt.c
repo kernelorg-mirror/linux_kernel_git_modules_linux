@@ -8,6 +8,7 @@
 #include <linux/kernel.h>
 #include <linux/mcb.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/watchdog.h>
 
 struct men_z069_drv {

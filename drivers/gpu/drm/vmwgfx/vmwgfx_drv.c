@@ -34,6 +34,7 @@
 #include <linux/cc_platform.h>
 #include <linux/dma-mapping.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/version.h>
 #include <linux/vmalloc.h>

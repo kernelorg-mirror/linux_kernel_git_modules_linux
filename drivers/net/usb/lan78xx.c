@@ -3,6 +3,7 @@
  * Copyright (C) 2015 Microchip Technology
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/etherdevice.h>
 #include <linux/ethtool.h>

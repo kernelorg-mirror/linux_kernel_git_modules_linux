@@ -19,6 +19,7 @@
 #include "dm-audit.h"
 #include <linux/hex.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/reboot.h>
 #include <linux/string.h>
 #include <linux/jump_label.h>

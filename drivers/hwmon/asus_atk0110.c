@@ -12,6 +12,7 @@
 #include <linux/hwmon.h>
 #include <linux/list.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/dmi.h>
 #include <linux/jiffies.h>

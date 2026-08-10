@@ -63,6 +63,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <linux/fd.h>
 #include <linux/delay.h>

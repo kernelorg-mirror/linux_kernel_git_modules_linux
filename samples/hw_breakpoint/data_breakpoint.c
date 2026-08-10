@@ -14,6 +14,7 @@
  * Author: K.Prasad <prasad@linux.vnet.ibm.com>
  */
 #include <linux/module.h>	/* Needed by all modules */
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>	/* Needed for KERN_INFO */
 #include <linux/init.h>		/* Needed for the macros */
 #include <linux/kallsyms.h>

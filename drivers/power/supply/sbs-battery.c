@@ -15,6 +15,7 @@
 #include <linux/interrupt.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/property.h>
 #include <linux/of.h>
 #include <linux/power/sbs-battery.h>

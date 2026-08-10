@@ -9,6 +9,7 @@
 #include <linux/device.h>
 #include <linux/dma-buf.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 
 #include <video/imx-ipu-v3.h>

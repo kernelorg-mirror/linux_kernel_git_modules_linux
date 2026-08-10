@@ -35,6 +35,7 @@
 #include <linux/cc_platform.h>
 #include <linux/dynamic_debug.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mmu_notifier.h>
 #include <linux/pm_runtime.h>
 #include <linux/suspend.h>

@@ -15,6 +15,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/sched/signal.h>
 #include <linux/time.h>

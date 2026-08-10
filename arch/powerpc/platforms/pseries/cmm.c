@@ -13,6 +13,7 @@
 #include <linux/gfp.h>
 #include <linux/kthread.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/oom.h>
 #include <linux/reboot.h>
 #include <linux/sched.h>

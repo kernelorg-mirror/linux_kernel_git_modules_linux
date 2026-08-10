@@ -12,6 +12,7 @@
 #include <linux/gpio/consumer.h>
 #include <linux/interrupt.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of_graph.h>
 #include <linux/pm_runtime.h>
 #include <linux/regmap.h>

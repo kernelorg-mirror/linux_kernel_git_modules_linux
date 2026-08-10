@@ -39,6 +39,7 @@
 #include <linux/btf.h>
 #include <linux/btf_ids.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mm.h>
 #include <net/tcp.h>
 #include <linux/inet_diag.h>

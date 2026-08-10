@@ -14,6 +14,7 @@
 #include <linux/jiffies.h>
 #include <linux/list.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/usb.h>
 #include <linux/vmalloc.h>

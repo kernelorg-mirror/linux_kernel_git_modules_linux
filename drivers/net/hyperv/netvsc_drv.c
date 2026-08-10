@@ -12,6 +12,7 @@
 #include <linux/atomic.h>
 #include <linux/ethtool.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/highmem.h>
 #include <linux/device.h>
 #include <linux/io.h>

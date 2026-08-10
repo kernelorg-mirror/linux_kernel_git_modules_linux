@@ -10,6 +10,7 @@
 #undef DEBUG
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/stm.h>
 #include <uapi/linux/stm.h>

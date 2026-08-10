@@ -11,6 +11,7 @@
 #include <linux/mutex.h>
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/string.h>
 #include <linux/sched/signal.h>
 #include <linux/anon_inodes.h>

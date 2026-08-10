@@ -8,6 +8,7 @@
 
 #include "pch_gbe.h"
 #include <linux/module.h>	/* for __MODULE_STRING */
+#include <linux/moduleparam.h>
 
 #define OPTION_UNSET   -1
 #define OPTION_DISABLED 0

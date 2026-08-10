@@ -12,6 +12,7 @@
 #include <linux/spinlock.h>
 #include <linux/mempool.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blkdev.h>
 #include <linux/blk-mq.h>
 #include <linux/slab.h>

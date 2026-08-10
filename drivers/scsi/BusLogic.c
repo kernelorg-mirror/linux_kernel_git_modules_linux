@@ -23,6 +23,7 @@
 #define blogic_drvr_date		"12 September 2013"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/types.h>

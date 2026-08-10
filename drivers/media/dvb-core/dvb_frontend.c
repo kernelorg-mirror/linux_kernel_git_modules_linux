@@ -23,6 +23,7 @@
 #include <linux/poll.h>
 #include <linux/semaphore.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/nospec.h>
 #include <linux/list.h>
 #include <linux/freezer.h>

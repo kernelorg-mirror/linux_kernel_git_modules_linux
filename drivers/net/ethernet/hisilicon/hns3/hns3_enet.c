@@ -13,6 +13,7 @@
 #include <linux/ipv6.h>
 #include <linux/iommu.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/skbuff.h>
 #include <linux/sctp.h>

@@ -8,6 +8,7 @@
 #include <linux/kernel.h>
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/watchdog.h>
 #include <linux/platform_device.h>
 #include <linux/i2c.h>

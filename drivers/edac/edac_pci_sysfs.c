@@ -7,6 +7,7 @@
  *
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/edac.h>
 #include <linux/slab.h>
 #include <linux/ctype.h>

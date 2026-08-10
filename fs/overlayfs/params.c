@@ -2,6 +2,7 @@
 
 #include <linux/fs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/namei.h>
 #include <linux/fs_context.h>
 #include <linux/fs_parser.h>

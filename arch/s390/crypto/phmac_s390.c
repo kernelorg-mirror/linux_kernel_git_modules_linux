@@ -18,6 +18,7 @@
 #include <linux/delay.h>
 #include <linux/miscdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/spinlock.h>
 
 static struct crypto_engine *phmac_crypto_engine;

@@ -4,6 +4,7 @@
  * Author: Johannes Berg <johannes@sipsolutions.net>
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/virtio.h>
 #include <linux/virtio_config.h>

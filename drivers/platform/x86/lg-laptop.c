@@ -22,6 +22,7 @@
 #include <linux/leds.h>
 #include <linux/limits.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include <linux/string_choices.h>
 #include <linux/types.h>

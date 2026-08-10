@@ -10,6 +10,7 @@
 #include <linux/sched.h>
 #include <linux/firmware.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/etherdevice.h>
 
 #include "cw1200.h"

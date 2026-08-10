@@ -15,6 +15,7 @@
 #include <linux/err.h>
 #include <linux/interrupt.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/workqueue.h>
 #include <linux/platform_device.h>
 #include <linux/pm_runtime.h>

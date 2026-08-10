@@ -28,6 +28,7 @@
 #include <linux/btf.h>
 #include <linux/btf_ids.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/math64.h>
 #include <net/tcp.h>
 

@@ -11,6 +11,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/timer.h>
 #include <linux/platform_device.h>
 #include <linux/netdevice.h>

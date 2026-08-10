@@ -5,6 +5,7 @@
 #include <linux/fault-inject.h>
 #include <linux/debugfs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <ufs/ufshcd.h>
 #include "ufs-fault-injection.h"
 

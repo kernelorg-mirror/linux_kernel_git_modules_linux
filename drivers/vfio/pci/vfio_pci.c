@@ -18,6 +18,7 @@
 #include <linux/interrupt.h>
 #include <linux/iommu.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/notifier.h>
 #include <linux/pm_runtime.h>

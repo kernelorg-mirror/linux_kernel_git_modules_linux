@@ -14,6 +14,7 @@
 #include <linux/kernel.h>
 #include <linux/lcd.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/slab.h>
 #include <linux/spi/spi.h>

@@ -8,6 +8,7 @@
 #include "saa7134-reg.h"
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/delay.h>
 #include <linux/interrupt.h>

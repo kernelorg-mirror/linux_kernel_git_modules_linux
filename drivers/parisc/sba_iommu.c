@@ -44,6 +44,7 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include <asm/ropes.h>
 #include <asm/page.h>		/* for PAGE0 */

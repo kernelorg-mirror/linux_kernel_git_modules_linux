@@ -9,6 +9,7 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/hrtimer.h>
 #include <linux/slab.h>
 #include <linux/stm.h>

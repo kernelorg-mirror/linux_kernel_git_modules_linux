@@ -14,6 +14,7 @@
 #include <linux/bio-integrity.h>
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/sched/mm.h>
 #include <linux/sched/signal.h>

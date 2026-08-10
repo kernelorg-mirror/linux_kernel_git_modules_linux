@@ -10,6 +10,7 @@
 #include <linux/err.h>
 #include <linux/isa.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/string.h>
 #include <sound/core.h>
 #include <sound/sb.h>

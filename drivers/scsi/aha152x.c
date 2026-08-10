@@ -225,6 +225,7 @@
  **************************************************************************/
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <asm/irq.h>
 #include <linux/io.h>
 #include <linux/blkdev.h>

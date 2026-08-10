@@ -11,6 +11,7 @@
 #include <keys/trusted-type.h>
 #include <linux/key-type.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/printk.h>
 #include <linux/random.h>
 #include <linux/scatterlist.h>

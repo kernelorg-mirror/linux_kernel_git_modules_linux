@@ -44,6 +44,7 @@
 
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/param.h>
 #include <linux/jiffies.h>

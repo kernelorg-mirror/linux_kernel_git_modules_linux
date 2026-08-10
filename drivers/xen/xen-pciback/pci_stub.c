@@ -9,6 +9,7 @@
 #define dev_fmt pr_fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/rwsem.h>
 #include <linux/list.h>

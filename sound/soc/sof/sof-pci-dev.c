@@ -11,6 +11,7 @@
 #include <linux/firmware.h>
 #include <linux/dmi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/platform_data/x86/soc.h>
 #include <linux/pm_runtime.h>

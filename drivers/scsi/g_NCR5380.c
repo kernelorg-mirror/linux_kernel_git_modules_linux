@@ -26,6 +26,7 @@
 #include <asm/io.h>
 #include <linux/blkdev.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <scsi/scsi_host.h>
 #include <linux/init.h>
 #include <linux/ioport.h>

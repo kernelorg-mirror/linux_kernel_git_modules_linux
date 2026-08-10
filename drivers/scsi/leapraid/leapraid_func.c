@@ -5,6 +5,7 @@
  * LeapRAID storage and RAID controller driver.
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "leapraid_func.h"
 

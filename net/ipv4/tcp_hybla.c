@@ -12,6 +12,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <net/tcp.h>
 
 /* Tcp Hybla structure. */

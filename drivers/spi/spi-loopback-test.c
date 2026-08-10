@@ -15,6 +15,7 @@
 #include <linux/list.h>
 #include <linux/list_sort.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/printk.h>
 #include <linux/vmalloc.h>
 #include <linux/spi/spi.h>

@@ -5,6 +5,7 @@
 #include <linux/memory_hotplug.h>
 #include <linux/genalloc.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/acpi.h>
 #include <linux/pci.h>

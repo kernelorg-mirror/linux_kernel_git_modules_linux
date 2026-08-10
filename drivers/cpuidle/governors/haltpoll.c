@@ -18,6 +18,7 @@
 #include <linux/tick.h>
 #include <linux/sched.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kvm_para.h>
 #include <trace/events/power.h>
 

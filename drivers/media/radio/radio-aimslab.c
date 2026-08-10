@@ -28,6 +28,7 @@
  */
 
 #include <linux/module.h>	/* Modules			*/
+#include <linux/moduleparam.h>
 #include <linux/init.h>		/* Initdata			*/
 #include <linux/ioport.h>	/* request_region		*/
 #include <linux/delay.h>	/* msleep			*/

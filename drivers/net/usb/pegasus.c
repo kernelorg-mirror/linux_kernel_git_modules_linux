@@ -14,6 +14,7 @@
 #include <linux/mii.h>
 #include <linux/usb.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <asm/byteorder.h>
 #include <linux/uaccess.h>
 #include "pegasus.h"

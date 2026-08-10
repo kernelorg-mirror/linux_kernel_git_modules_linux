@@ -16,6 +16,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <net/rsi_91x.h>
 #include "rsi_usb.h"

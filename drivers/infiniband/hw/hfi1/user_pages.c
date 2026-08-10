@@ -7,6 +7,7 @@
 #include <linux/sched/signal.h>
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "hfi.h"
 

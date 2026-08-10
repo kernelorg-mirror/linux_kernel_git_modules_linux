@@ -4,6 +4,7 @@
 #include <linux/i2c.h>
 #include <linux/mutex.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "dibx000_common.h"
 

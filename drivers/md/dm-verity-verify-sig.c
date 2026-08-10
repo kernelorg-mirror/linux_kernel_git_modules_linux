@@ -10,6 +10,7 @@
 #include <linux/key.h>
 #include <keys/user-type.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "dm-verity.h"
 #include "dm-verity-verify-sig.h"
 

@@ -14,6 +14,7 @@
 #include <linux/usb.h>
 #include "usbhid/usbhid.h"
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 
 #include "hid-ids.h"

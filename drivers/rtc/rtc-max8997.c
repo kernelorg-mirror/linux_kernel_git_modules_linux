@@ -13,6 +13,7 @@
 #include <linux/delay.h>
 #include <linux/mutex.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include <linux/mfd/max8997-private.h>
 #include <linux/irqdomain.h>

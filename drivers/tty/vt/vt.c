@@ -72,6 +72,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <linux/sched/signal.h>
 #include <linux/tty.h>

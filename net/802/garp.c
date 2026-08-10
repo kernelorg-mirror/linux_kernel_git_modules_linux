@@ -13,6 +13,7 @@
 #include <linux/llc.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <net/llc.h>
 #include <net/llc_pdu.h>
 #include <net/garp.h>

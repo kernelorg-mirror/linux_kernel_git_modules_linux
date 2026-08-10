@@ -34,6 +34,7 @@
 #include <linux/semaphore.h>
 #include <linux/iscsi_boot_sysfs.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/bsg-lib.h>
 #include <linux/irq_poll.h>
 

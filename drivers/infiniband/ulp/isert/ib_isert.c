@@ -10,6 +10,7 @@
 
 #include <linux/string.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/scatterlist.h>
 #include <linux/socket.h>
 #include <linux/in.h>

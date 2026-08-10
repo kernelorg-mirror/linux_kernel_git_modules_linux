@@ -17,6 +17,7 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "dwc-xlgmac.h"
 #include "dwc-xlgmac-reg.h"

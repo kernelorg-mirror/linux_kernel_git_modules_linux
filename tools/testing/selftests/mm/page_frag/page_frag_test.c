@@ -7,6 +7,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/cpumask.h>
 #include <linux/completion.h>
 #include <linux/ptr_ring.h>

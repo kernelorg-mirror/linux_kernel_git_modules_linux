@@ -20,6 +20,7 @@
 
 #include <linux/vmalloc.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 static void rtl8723be_init_aspm_vars(struct ieee80211_hw *hw)
 {

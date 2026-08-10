@@ -17,6 +17,7 @@
 #include <linux/io.h>
 #include <linux/jiffies.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/timer.h>
 #include <linux/watchdog.h>

@@ -11,6 +11,7 @@
 #include <linux/pm.h>
 #include <linux/pnp.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <sound/core.h>
 #include <sound/wss.h>

@@ -12,6 +12,7 @@
 #include <linux/mfd/mc13783.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/input.h>
 #include <linux/sched.h>
 #include <linux/slab.h>

@@ -21,6 +21,7 @@
 #include <linux/kernel.h>
 #include <linux/mbus.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/netdevice.h>
 #include <linux/of.h>
 #include <linux/of_address.h>

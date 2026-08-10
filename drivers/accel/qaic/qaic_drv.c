@@ -12,6 +12,7 @@
 #include <linux/kref.h>
 #include <linux/mhi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/msi.h>
 #include <linux/mutex.h>
 #include <linux/pci.h>

@@ -40,6 +40,7 @@
 #include <linux/kernel.h>
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/blk-mq.h>
 #include <linux/fs.h>
 #include <linux/blkdev.h>

@@ -18,6 +18,7 @@
 
 #include <linux/aperture.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/fb.h>
 #include <linux/init.h>
 #include <linux/pci.h>

@@ -19,6 +19,7 @@
 
 #include <linux/i2c.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/v4l2-dv-timings.h>
 

@@ -36,6 +36,7 @@
 #include <linux/export.h>
 #include <linux/file.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/sched.h>
 #include <linux/shmem_fs.h>
 #include <drm/drm_cache.h>

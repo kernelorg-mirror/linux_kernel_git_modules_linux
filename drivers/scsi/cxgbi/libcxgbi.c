@@ -30,6 +30,7 @@
 
 #include <linux/inetdevice.h>	/* ip_dev_find */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <net/tcp.h>
 
 static unsigned int dbg_level;

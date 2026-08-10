@@ -21,6 +21,7 @@
 #include <linux/init.h>
 #include <linux/minmax.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/of_platform.h>
 #include <linux/pwm.h>

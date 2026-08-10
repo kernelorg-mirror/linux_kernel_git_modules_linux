@@ -15,6 +15,7 @@
 #include <linux/if_vlan.h>
 #include <linux/jhash.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/etherdevice.h>
 #include <linux/rtnetlink.h>
 #include <linux/sizes.h>

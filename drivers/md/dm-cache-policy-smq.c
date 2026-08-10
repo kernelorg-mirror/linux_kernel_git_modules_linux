@@ -13,6 +13,7 @@
 #include <linux/hash.h>
 #include <linux/jiffies.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/vmalloc.h>
 #include <linux/math64.h>

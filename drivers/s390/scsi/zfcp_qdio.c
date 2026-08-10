@@ -12,6 +12,7 @@
 #include <linux/lockdep.h>
 #include <linux/slab.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "zfcp_ext.h"
 #include "zfcp_qdio.h"
 

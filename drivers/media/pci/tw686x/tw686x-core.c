@@ -33,6 +33,7 @@
 #include <linux/delay.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci_ids.h>
 #include <linux/slab.h>
 #include <linux/timer.h>

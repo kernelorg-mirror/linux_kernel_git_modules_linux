@@ -8,6 +8,7 @@
 #include <linux/acpi.h>
 #include <linux/dmi.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <linux/delay.h>
 #include <linux/platform_device.h>

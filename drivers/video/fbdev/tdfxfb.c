@@ -66,6 +66,7 @@
 
 #include <linux/aperture.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/delay.h>
 #include <linux/errno.h>

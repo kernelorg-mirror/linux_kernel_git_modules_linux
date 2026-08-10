@@ -75,6 +75,7 @@
 #include <linux/cpumask.h>
 #include <linux/spinlock.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mutex.h>
 #include <linux/rcupdate.h>
 #include <linux/stacktrace.h>

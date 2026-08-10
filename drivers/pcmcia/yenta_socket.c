@@ -17,6 +17,7 @@
 #include <linux/interrupt.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/io.h>
 #include <linux/slab.h>
 

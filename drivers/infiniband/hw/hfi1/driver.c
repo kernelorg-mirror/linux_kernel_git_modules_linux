@@ -11,6 +11,7 @@
 #include <linux/netdevice.h>
 #include <linux/vmalloc.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/prefetch.h>
 #include <rdma/ib_verbs.h>
 #include <linux/etherdevice.h>

@@ -8,6 +8,7 @@
  */
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/interrupt.h>
 #include <linux/of_graph.h>
 #include <linux/platform_device.h>

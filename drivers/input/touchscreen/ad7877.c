@@ -31,6 +31,7 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/ad7877.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <asm/irq.h>
 
 #define	TS_PEN_UP_TIMEOUT	msecs_to_jiffies(100)

@@ -11,6 +11,7 @@
 #include <linux/mfd/core.h>
 #include <linux/mfd/kempld.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/property.h>
 #include <linux/dmi.h>
 #include <linux/io.h>

@@ -10,6 +10,7 @@
 #define pr_fmt(fmt) "LoadPin: " fmt
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/fs.h>
 #include <linux/hex.h>
 #include <linux/kernel_read_file.h>

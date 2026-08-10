@@ -13,6 +13,7 @@
  * Javier Martin <javier.martin@vista-silicon.com>
  */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/clk.h>
 #include <linux/slab.h>
 #include <linux/interrupt.h>

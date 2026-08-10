@@ -22,6 +22,7 @@
 #include <linux/err.h>
 #include <linux/fips.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/once.h>
 #include <linux/prandom.h>
 #include <linux/scatterlist.h>

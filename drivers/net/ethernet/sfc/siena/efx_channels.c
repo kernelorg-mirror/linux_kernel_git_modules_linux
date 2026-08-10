@@ -10,6 +10,7 @@
 
 #include "net_driver.h"
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/filter.h>
 #include "efx_channels.h"
 #include "efx.h"

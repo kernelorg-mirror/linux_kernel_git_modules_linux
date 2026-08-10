@@ -9,6 +9,7 @@
 #include <linux/key.h>
 #include <keys/ceph-type.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/mount.h>
 #include <linux/nsproxy.h>
 #include <linux/fs_parser.h>

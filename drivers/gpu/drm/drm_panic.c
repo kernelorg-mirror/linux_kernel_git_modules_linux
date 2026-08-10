@@ -17,6 +17,7 @@
 #include <linux/list.h>
 #include <linux/math.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/overflow.h>
 #include <linux/printk.h>
 #include <linux/types.h>

@@ -8,6 +8,7 @@
 
 #include <linux/export.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/firmware.h>
 #include <linux/of.h>
 #include <linux/property.h>

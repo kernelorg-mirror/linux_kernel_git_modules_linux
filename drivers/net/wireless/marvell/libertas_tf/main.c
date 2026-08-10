@@ -10,6 +10,7 @@
 
 #include <linux/etherdevice.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include "libertas_tf.h"
 
 /* thinfirm version: 5.132.X.pX */

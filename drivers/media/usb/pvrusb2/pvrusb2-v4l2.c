@@ -15,6 +15,7 @@
 #include "pvrusb2-ioread.h"
 #include <linux/videodev2.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-fh.h>

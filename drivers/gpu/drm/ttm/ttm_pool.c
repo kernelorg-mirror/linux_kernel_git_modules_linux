@@ -33,6 +33,7 @@
 
 #include <linux/export.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/dma-mapping.h>
 #include <linux/debugfs.h>
 #include <linux/highmem.h>

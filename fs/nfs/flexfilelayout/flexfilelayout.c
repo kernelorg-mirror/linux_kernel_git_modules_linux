@@ -11,6 +11,7 @@
 #include <linux/nfs_mount.h>
 #include <linux/nfs_page.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/file.h>
 #include <linux/sched/mm.h>
 

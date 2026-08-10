@@ -18,6 +18,7 @@
 #include <linux/kthread.h>
 #include <linux/init.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <linux/syscore_ops.h>
 #include <linux/acpi.h>

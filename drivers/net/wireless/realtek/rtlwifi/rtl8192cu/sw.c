@@ -17,6 +17,7 @@
 #include "hw.h"
 #include "../rtl8192c/fw_common.h"
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 MODULE_AUTHOR("Georgia		<georgia@realtek.com>");
 MODULE_AUTHOR("Ziv Huang	<ziv_huang@realtek.com>");

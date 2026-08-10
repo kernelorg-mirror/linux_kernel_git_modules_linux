@@ -42,6 +42,7 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/partitions.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/err.h>
 
 /* special size referring to all the remaining space in a partition */

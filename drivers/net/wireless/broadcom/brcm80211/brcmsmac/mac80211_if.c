@@ -23,6 +23,7 @@
 #include <linux/firmware.h>
 #include <linux/interrupt.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/bcma/bcma.h>
 #include <linux/string_choices.h>
 #include <net/mac80211.h>

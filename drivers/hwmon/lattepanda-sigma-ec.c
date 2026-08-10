@@ -30,6 +30,7 @@
 #include <linux/io.h>
 #include <linux/ioport.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 
 #define DRIVER_NAME	"lattepanda_sigma_ec"

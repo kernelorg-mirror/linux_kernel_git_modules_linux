@@ -76,6 +76,7 @@ static char *media[MAX_UNITS];
 
 /* Include files, designed to support most kernel versions 2.0.0 and later. */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/timer.h>

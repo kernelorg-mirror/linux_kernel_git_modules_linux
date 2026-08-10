@@ -3,6 +3,7 @@
 #include <linux/cdrom.h>
 #include <linux/pm_runtime.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pm_qos.h>
 #include <scsi/scsi_device.h>
 

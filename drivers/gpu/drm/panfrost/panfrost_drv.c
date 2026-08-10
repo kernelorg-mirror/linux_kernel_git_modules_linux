@@ -8,6 +8,7 @@
 #endif
 
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/of.h>
 #include <linux/pagemap.h>
 #include <linux/platform_device.h>

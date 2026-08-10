@@ -9,6 +9,7 @@
 #include <linux/list.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/dma-map-ops.h>
 #include <linux/of.h>
 #include <linux/of_platform.h>

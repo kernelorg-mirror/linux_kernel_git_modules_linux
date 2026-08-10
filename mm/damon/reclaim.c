@@ -8,6 +8,7 @@
 #include <linux/damon.h>
 #include <linux/kstrtox.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 
 #include "modules-common.h"
 

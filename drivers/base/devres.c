@@ -8,6 +8,7 @@
 
 #include <linux/device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/slab.h>
 #include <linux/percpu.h>
 

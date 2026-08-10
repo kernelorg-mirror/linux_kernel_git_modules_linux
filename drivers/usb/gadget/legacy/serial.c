@@ -11,6 +11,7 @@
 #include <linux/device.h>
 #include <linux/kstrtox.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/tty.h>
 #include <linux/tty_flip.h>
 

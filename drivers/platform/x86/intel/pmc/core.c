@@ -23,6 +23,7 @@ enum header_type {
 #include <linux/err.h>
 #include <linux/io.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/slab.h>
 #include <linux/suspend.h>

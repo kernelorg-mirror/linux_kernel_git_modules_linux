@@ -9,6 +9,7 @@
 #include <linux/videodev2.h>
 #include <linux/delay.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <asm/div64.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>

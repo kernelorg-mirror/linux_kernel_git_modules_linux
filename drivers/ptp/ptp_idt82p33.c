@@ -8,6 +8,7 @@
 #include <linux/firmware.h>
 #include <linux/platform_device.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/ptp_clock_kernel.h>
 #include <linux/delay.h>
 #include <linux/jiffies.h>
