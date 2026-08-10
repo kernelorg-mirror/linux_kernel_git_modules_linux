@@ -7,6 +7,7 @@
 #include "wacom.h"
 #include <linux/input/mt.h>
 #include <linux/jiffies.h>
+#include <linux/moduleparam.h>
 
 /* resolution for penabled devices */
 #define WACOM_PL_RES		20

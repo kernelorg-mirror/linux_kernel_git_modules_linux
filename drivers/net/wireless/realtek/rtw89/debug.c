@@ -4,6 +4,7 @@
 
 #include <linux/hex.h>
 #include <linux/vmalloc.h>
+#include <linux/moduleparam.h>
 
 #include "coex.h"
 #include "debug.h"

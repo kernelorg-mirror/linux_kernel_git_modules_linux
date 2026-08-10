@@ -5,6 +5,7 @@
  */
 
 #include <linux/fb.h>
+#include <linux/moduleparam.h>
 
 #include <drm/drm_drv.h>
 #include <drm/drm_crtc_helper.h>

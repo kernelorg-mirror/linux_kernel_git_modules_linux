@@ -16,6 +16,7 @@
 #include <linux/firmware.h>
 #include <linux/iommu.h>
 #include <linux/iopoll.h>
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 #include <linux/xarray.h>
 #include <asm/hypervisor.h>

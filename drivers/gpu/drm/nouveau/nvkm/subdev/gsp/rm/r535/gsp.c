@@ -42,6 +42,7 @@
 #include <linux/acpi.h>
 #include <linux/ctype.h>
 #include <linux/parser.h>
+#include <linux/moduleparam.h>
 
 extern struct dentry *nouveau_debugfs_root;
 

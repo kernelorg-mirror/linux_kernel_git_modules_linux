@@ -4,6 +4,8 @@
  * Author: Rob Clark <robdclark@gmail.com>
  */
 
+#include <linux/moduleparam.h>
+
 #include "drm/drm_file.h"
 #include "drm/msm_drm.h"
 #include "linux/file.h"

@@ -11,6 +11,7 @@
 #include <linux/errno.h>
 #include <linux/kernel.h>
 #include <linux/sched/mm.h>
+#include <linux/moduleparam.h>
 #include <ufs/ufshcd.h>
 #include <ufs/unipro.h>
 #include "ufshcd-priv.h"

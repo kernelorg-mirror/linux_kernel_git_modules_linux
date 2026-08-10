@@ -17,6 +17,7 @@
 #include "bnx2fc.h"
 
 #include <linux/ethtool.h>
+#include <linux/moduleparam.h>
 #include <net/netdev_lock.h>
 
 static struct list_head adapter_list;

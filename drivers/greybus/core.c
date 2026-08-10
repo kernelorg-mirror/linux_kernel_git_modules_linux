@@ -9,6 +9,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #define CREATE_TRACE_POINTS
+#include <linux/moduleparam.h>
 #include <linux/greybus.h>
 #include "greybus_trace.h"
 

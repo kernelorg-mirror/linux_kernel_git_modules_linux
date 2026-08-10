@@ -18,6 +18,7 @@
 #include <linux/acpi.h>
 #include <linux/device.h>
 #include <linux/dmi.h>
+#include <linux/moduleparam.h>
 #include <linux/suspend.h>
 
 #include "../sleep.h"

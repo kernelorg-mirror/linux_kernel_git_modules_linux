@@ -4,6 +4,9 @@
  * flexcop-usb.c - covers the USB part
  * see flexcop.c for copyright information
  */
+
+#include <linux/moduleparam.h>
+
 #define FC_LOG_PREFIX "flexcop_usb"
 #include "flexcop-usb.h"
 #include "flexcop-common.h"

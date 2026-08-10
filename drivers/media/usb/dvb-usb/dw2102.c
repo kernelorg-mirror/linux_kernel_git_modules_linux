@@ -10,6 +10,8 @@
  *
  * see Documentation/driver-api/media/drivers/dvb-usb.rst for more information
  */
+
+#include <linux/moduleparam.h>
 #include <media/dvb-usb-ids.h>
 #include "dw2102.h"
 #include "si21xx.h"

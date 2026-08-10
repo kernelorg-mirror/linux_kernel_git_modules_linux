@@ -29,6 +29,7 @@
 #include <net/netdev_lock.h>
 #include <net/page_pool/helpers.h>
 #include <linux/genalloc.h>
+#include <linux/moduleparam.h>
 
 #include "mtk_eth_soc.h"
 #include "mtk_wed.h"

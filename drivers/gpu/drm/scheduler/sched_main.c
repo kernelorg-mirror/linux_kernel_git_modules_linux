@@ -71,6 +71,7 @@
 #include <linux/sched.h>
 #include <linux/completion.h>
 #include <linux/dma-resv.h>
+#include <linux/moduleparam.h>
 #include <uapi/linux/sched/types.h>
 
 #include <drm/drm_print.h>

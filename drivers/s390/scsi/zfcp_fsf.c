@@ -13,6 +13,7 @@
 #include <linux/jiffies.h>
 #include <linux/types.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 #include <scsi/fc/fc_els.h>
 #include "zfcp_ext.h"
 #include "zfcp_fc.h"

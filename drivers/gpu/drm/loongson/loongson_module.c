@@ -3,6 +3,7 @@
  * Copyright (C) 2023 Loongson Technology Corporation Limited
  */
 
+#include <linux/moduleparam.h>
 #include <linux/pci.h>
 
 #include <video/nomodeset.h>

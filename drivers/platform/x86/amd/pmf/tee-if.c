@@ -13,6 +13,7 @@
 #include <linux/dev_printk.h>
 #include <linux/tee_drv.h>
 #include <linux/uuid.h>
+#include <linux/moduleparam.h>
 #include "pmf.h"
 
 #define MAX_TEE_PARAM	4

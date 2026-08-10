@@ -28,6 +28,7 @@
 #include <linux/usb/webusb.h>
 #include <linux/log2.h>
 #include <linux/configfs.h>
+#include <linux/moduleparam.h>
 
 /*
  * USB function drivers should return USB_GADGET_DELAYED_STATUS if they

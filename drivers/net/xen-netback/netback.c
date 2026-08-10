@@ -39,6 +39,7 @@
 #include <linux/udp.h>
 #include <linux/highmem.h>
 #include <linux/skbuff_ref.h>
+#include <linux/moduleparam.h>
 
 #include <net/tcp.h>
 

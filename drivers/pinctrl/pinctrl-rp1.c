@@ -15,6 +15,7 @@
 #include <linux/platform_device.h>
 #include <linux/seq_file.h>
 #include <linux/regmap.h>
+#include <linux/moduleparam.h>
 
 #include "pinmux.h"
 #include "pinconf.h"

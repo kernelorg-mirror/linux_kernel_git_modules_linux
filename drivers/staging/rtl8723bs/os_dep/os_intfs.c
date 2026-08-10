@@ -4,6 +4,7 @@
  * Copyright(c) 2007 - 2011 Realtek Corporation. All rights reserved.
  *
  ******************************************************************************/
+#include <linux/moduleparam.h>
 #include <drv_types.h>
 #include <hal_data.h>
 #include <rtl8723b_xmit.h>

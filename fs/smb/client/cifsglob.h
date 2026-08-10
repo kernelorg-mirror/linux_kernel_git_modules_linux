@@ -30,6 +30,7 @@
 #include "smb2pdu.h"
 #include "smb1pdu.h"
 #include <linux/filelock.h>
+#include <linux/moduleparam.h>
 
 #define SMB_PATH_MAX 260
 #define CIFS_PORT 445

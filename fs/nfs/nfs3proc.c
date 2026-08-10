@@ -21,6 +21,7 @@
 #include <linux/nfs_mount.h>
 #include <linux/freezer.h>
 #include <linux/xattr.h>
+#include <linux/moduleparam.h>
 
 #include "iostat.h"
 #include "internal.h"

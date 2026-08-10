@@ -13,6 +13,7 @@
 #include <linux/kernel.h>
 #include <linux/dvb/frontend.h>
 #include <linux/int_log.h>
+#include <linux/moduleparam.h>
 #include "lgdt3306a.h"
 #include <linux/i2c-mux.h>
 

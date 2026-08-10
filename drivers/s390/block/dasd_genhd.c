@@ -17,6 +17,7 @@
 #include <linux/blkpg.h>
 
 #include <linux/uaccess.h>
+#include <linux/moduleparam.h>
 
 #include "dasd_int.h"
 

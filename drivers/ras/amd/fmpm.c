@@ -48,6 +48,7 @@
 #include <linux/cper.h>
 #include <linux/ras.h>
 #include <linux/cpu.h>
+#include <linux/moduleparam.h>
 
 #include <acpi/apei.h>
 

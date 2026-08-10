@@ -11,6 +11,7 @@
 #define MODULE_NAME "842_compress"
 
 #include <linux/hashtable.h>
+#include <linux/moduleparam.h>
 
 #include "842.h"
 #include "842_debugfs.h"

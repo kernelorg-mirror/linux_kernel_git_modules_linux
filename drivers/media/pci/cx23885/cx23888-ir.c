@@ -12,6 +12,7 @@
 
 #include <linux/kfifo.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 
 #include <media/v4l2-device.h>
 #include <media/rc-core.h>

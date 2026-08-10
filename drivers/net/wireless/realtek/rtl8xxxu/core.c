@@ -15,6 +15,7 @@
 
 #include <linux/firmware.h>
 #include <linux/iopoll.h>
+#include <linux/moduleparam.h>
 #include "regs.h"
 #include "rtl8xxxu.h"
 

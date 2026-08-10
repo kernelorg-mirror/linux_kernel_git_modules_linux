@@ -33,6 +33,7 @@
 #include <linux/ktime.h>
 #include <linux/security.h>
 #include <linux/secretmem.h>
+#include <linux/moduleparam.h>
 #include <trace/events/power.h>
 
 #include "power.h"

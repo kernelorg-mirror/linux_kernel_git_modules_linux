@@ -8,6 +8,7 @@
 #include <linux/pci-doe.h>
 #include <cxl/pci.h>
 #include <linux/aer.h>
+#include <linux/moduleparam.h>
 #include <cxlpci.h>
 #include <cxlmem.h>
 #include <cxl.h>

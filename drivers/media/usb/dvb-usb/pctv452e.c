@@ -27,6 +27,7 @@
 #include "ttpci-eeprom.h"
 
 #include <linux/etherdevice.h>
+#include <linux/moduleparam.h>
 
 static int debug;
 module_param(debug, int, 0644);

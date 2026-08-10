@@ -6,6 +6,7 @@
  */
 
 #include <linux/suspend.h>
+#include <linux/moduleparam.h>
 #include <net/sock.h>
 
 #include "main.h"

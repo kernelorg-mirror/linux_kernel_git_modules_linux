@@ -10,6 +10,7 @@
 #include <linux/kernel.h>
 #include <linux/i2c.h>
 #include <linux/mutex.h>
+#include <linux/moduleparam.h>
 
 #include <linux/int_log.h>
 #include <media/dvb_frontend.h>

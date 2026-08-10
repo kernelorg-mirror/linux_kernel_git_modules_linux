@@ -5,6 +5,7 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 #include <linux/utsname.h>
+#include <linux/moduleparam.h>
 #include "coredump.h"
 
 static bool coredump_memdump;

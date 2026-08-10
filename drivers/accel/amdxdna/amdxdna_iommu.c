@@ -7,6 +7,7 @@
 #include <drm/drm_managed.h>
 #include <linux/iommu.h>
 #include <linux/iova.h>
+#include <linux/moduleparam.h>
 
 #include "amdxdna_gem.h"
 #include "amdxdna_pci_drv.h"

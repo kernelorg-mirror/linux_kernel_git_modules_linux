@@ -9,6 +9,7 @@
 #include <linux/i2c.h>
 #include <linux/slab.h>
 #include <linux/videodev2.h>
+#include <linux/moduleparam.h>
 #include "tuner-i2c.h"
 #include "mt20xx.h"
 

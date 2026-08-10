@@ -8,6 +8,8 @@
  * Author: Basavaraj Natikar <Basavaraj.Natikar@amd.com>
  */
 
+#include <linux/moduleparam.h>
+
 #include "ae4dma.h"
 
 static unsigned int max_hw_q = 1;

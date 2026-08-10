@@ -10,6 +10,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <linux/kvm_host.h>
+#include <linux/moduleparam.h>
 #include "mmu.h"
 #include "mmu_internal.h"
 #include "x86.h"

@@ -9,6 +9,7 @@
 #include <linux/iommu.h>
 #include <linux/iommufd.h>
 #include <linux/iopoll.h>
+#include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 #include <uapi/linux/iommufd.h>
 

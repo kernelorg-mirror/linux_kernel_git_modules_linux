@@ -13,6 +13,7 @@
 #include <linux/sched/isolation.h>
 #include <linux/suspend.h>
 #include <linux/sysrq.h>
+#include <linux/moduleparam.h>
 
 #include "../pelt.h"
 #include "internal.h"

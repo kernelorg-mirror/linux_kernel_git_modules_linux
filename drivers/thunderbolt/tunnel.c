@@ -11,6 +11,7 @@
 #include <linux/list.h>
 #include <linux/ktime.h>
 #include <linux/string_helpers.h>
+#include <linux/moduleparam.h>
 
 #include "tunnel.h"
 #include "tb.h"

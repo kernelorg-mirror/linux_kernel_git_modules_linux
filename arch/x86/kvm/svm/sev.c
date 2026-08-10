@@ -19,6 +19,7 @@
 #include <linux/misc_cgroup.h>
 #include <linux/processor.h>
 #include <linux/trace_events.h>
+#include <linux/moduleparam.h>
 #include <uapi/linux/sev-guest.h>
 
 #include <asm/pkru.h>

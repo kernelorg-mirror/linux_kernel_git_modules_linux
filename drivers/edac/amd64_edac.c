@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-only
+#include <linux/moduleparam.h>
 #include <linux/ras.h>
 #include <linux/string_choices.h>
 #include "amd64_edac.h"

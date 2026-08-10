@@ -36,6 +36,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 #include <linux/pgtable.h>
+#include <linux/moduleparam.h>
 
 #include <asm/io.h>
 #include <asm/dma.h>

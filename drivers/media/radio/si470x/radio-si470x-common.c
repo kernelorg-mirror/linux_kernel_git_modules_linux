@@ -99,6 +99,8 @@
 
 
 /* kernel includes */
+#include <linux/moduleparam.h>
+
 #include "radio-si470x.h"
 
 /**************************************************************************

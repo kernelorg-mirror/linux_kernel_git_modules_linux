@@ -35,6 +35,7 @@
 
 #include <linux/fb.h>
 #include <linux/ivtvfb.h>
+#include <linux/moduleparam.h>
 
 #if defined(CONFIG_X86_64) && !defined(CONFIG_UML)
 #include <asm/memtype.h>

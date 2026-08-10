@@ -37,6 +37,7 @@
 #include <linux/thermal.h>
 #include <linux/timer.h>
 #include <linux/nmi.h>
+#include <linux/moduleparam.h>
 
 #include "../base.h"
 #include "power.h"

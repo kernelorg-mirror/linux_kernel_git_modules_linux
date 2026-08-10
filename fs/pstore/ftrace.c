@@ -17,6 +17,7 @@
 #include <linux/err.h>
 #include <linux/cache.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 #include <asm/barrier.h>
 #include <asm/setup.h>
 #include "internal.h"

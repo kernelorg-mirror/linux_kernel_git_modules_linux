@@ -131,6 +131,7 @@ static struct scsi_transport_template *ahc_linux_transport_template = NULL;
 #include <linux/blkdev.h>		/* For block_size() */
 #include <linux/delay.h>	/* For ssleep/msleep */
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 
 
 /*

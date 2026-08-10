@@ -4,6 +4,7 @@
 #include <linux/bitfield.h>
 #include <linux/bitmap.h>
 #include <linux/dma-mapping.h>
+#include <linux/moduleparam.h>
 #include <linux/scatterlist.h>
 #include "zip.h"
 

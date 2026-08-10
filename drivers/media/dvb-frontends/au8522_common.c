@@ -11,6 +11,7 @@
 */
 
 #include <linux/i2c.h>
+#include <linux/moduleparam.h>
 #include <media/dvb_frontend.h>
 #include "au8522_priv.h"
 

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include <linux/xz.h>
+#include <linux/moduleparam.h>
 #include "compress.h"
 
 struct z_erofs_lzma {

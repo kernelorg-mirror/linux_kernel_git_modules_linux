@@ -20,6 +20,7 @@
 #include <linux/sched/signal.h>
 #include <linux/sched/user.h>
 #include <linux/cred.h>
+#include <linux/moduleparam.h>
 
 #include <uapi/linux/magic.h>
 

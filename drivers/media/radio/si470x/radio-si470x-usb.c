@@ -24,6 +24,7 @@
 #include <linux/usb.h>
 #include <linux/hid.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 
 #include "radio-si470x.h"
 

@@ -14,6 +14,7 @@
 #include <linux/utsname.h>
 #include <linux/random.h>
 #include <linux/bsg-lib.h>
+#include <linux/moduleparam.h>
 #include <scsi/fc/fc_els.h>
 #include <scsi/libfc.h>
 #include "zfcp_ext.h"

@@ -18,6 +18,7 @@
 #include <linux/kthread.h>
 #include <linux/most.h>
 #include <linux/of.h>
+#include <linux/moduleparam.h>
 #include "hal.h"
 #include "errors.h"
 #include "sysfs.h"

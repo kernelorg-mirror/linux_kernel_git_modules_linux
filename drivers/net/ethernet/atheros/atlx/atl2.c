@@ -20,6 +20,7 @@
 #include <linux/irqflags.h>
 #include <linux/irqreturn.h>
 #include <linux/mii.h>
+#include <linux/moduleparam.h>
 #include <linux/net.h>
 #include <linux/netdevice.h>
 #include <linux/pci.h>

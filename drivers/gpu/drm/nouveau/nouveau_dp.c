@@ -22,6 +22,8 @@
  * Authors: Ben Skeggs
  */
 
+#include <linux/moduleparam.h>
+
 #include <drm/display/drm_dp_helper.h>
 
 #include "nouveau_drv.h"

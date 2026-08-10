@@ -14,6 +14,7 @@
 #include <linux/sched/mm.h>
 #include <linux/fs_context.h>
 #include <linux/fs_parser.h>
+#include <linux/moduleparam.h>
 
 #include "sysctl.h"
 #include "logfile.h"

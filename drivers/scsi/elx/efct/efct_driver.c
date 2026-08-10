@@ -4,6 +4,8 @@
  * “Broadcom” refers to Broadcom Inc. and/or its subsidiaries.
  */
 
+#include <linux/moduleparam.h>
+
 #include "efct_driver.h"
 
 #include "efct_hw.h"

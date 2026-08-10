@@ -21,6 +21,7 @@
 #include <linux/cpu.h>
 #include <linux/export.h>
 #include <linux/sched/debug.h>
+#include <linux/moduleparam.h>
 
 #ifdef arch_trigger_cpumask_backtrace
 /* For reliability, we're prepared to waste bits here. */

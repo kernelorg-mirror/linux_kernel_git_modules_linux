@@ -11,6 +11,7 @@
 
 #define MODULE_NAME "nw80x"
 
+#include <linux/moduleparam.h>
 #include "gspca.h"
 
 MODULE_AUTHOR("Jean-Francois Moine <http://moinejf.free.fr>");

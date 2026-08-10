@@ -7,6 +7,7 @@
 
 #include <generated/utsrelease.h>
 #include <linux/crash_dump.h>
+#include <linux/moduleparam.h>
 #include "ice.h"
 #include "ice_base.h"
 #include "ice_lib.h"

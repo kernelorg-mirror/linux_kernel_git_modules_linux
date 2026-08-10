@@ -18,6 +18,7 @@
 #include <linux/bug.h>
 #include <linux/pm_runtime.h>
 #include <linux/uaccess.h>
+#include <linux/moduleparam.h>
 
 #include "edac_mc.h"
 #include "edac_module.h"

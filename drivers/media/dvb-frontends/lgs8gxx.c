@@ -11,6 +11,7 @@
 
 #include <asm/div64.h>
 #include <linux/firmware.h>
+#include <linux/moduleparam.h>
 
 #include <media/dvb_frontend.h>
 

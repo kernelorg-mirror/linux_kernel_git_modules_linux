@@ -14,6 +14,7 @@
 #include <linux/cpumask.h>
 #include <linux/cpufeature.h>
 #include <linux/smp.h>
+#include <linux/moduleparam.h>
 
 #include <asm/perf_event.h>
 #include <asm/cpuid/api.h>

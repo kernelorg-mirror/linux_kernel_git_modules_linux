@@ -22,6 +22,7 @@
 #include <linux/kernel.h>
 #include <linux/slab.h>
 #include <linux/usb.h>
+#include <linux/moduleparam.h>
 
 #include <media/v4l2-common.h>
 #include <media/dvb_demux.h>

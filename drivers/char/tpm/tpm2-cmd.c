@@ -16,6 +16,7 @@
 #include "tpm.h"
 #include <crypto/hash_info.h>
 #include <linux/unaligned.h>
+#include <linux/moduleparam.h>
 
 static bool disable_pcr_integrity;
 module_param(disable_pcr_integrity, bool, 0444);

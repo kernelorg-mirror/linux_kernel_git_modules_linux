@@ -2,6 +2,7 @@
 /* Copyright (C) 2025 MediaTek Inc. */
 
 #include <linux/of.h>
+#include <linux/moduleparam.h>
 #include "mt7921.h"
 #include "regd.h"
 #include "mcu.h"

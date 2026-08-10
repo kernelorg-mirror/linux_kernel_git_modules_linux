@@ -11,6 +11,7 @@
 
 #include <linux/debugfs.h>
 #include <linux/dma-buf.h>
+#include <linux/moduleparam.h>
 #include <linux/of_irq.h>
 #include <linux/pm_opp.h>
 

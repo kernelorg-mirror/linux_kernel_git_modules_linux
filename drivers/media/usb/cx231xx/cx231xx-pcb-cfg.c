@@ -7,6 +7,8 @@
 
  */
 
+#include <linux/moduleparam.h>
+
 #include "cx231xx.h"
 #include "cx231xx-conf-reg.h"
 

@@ -4,6 +4,7 @@
  */
 
 #include <linux/lz4.h>
+#include <linux/moduleparam.h>
 #include <linux/usb.h>
 #include <linux/vmalloc.h>
 #include <linux/workqueue.h>

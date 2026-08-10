@@ -12,6 +12,8 @@
 #include "dvb-usb.h"
 #include "stv0299.h"
 
+#include <linux/moduleparam.h>
+
 #define OPERA_READ_MSG 0
 #define OPERA_WRITE_MSG 1
 #define OPERA_I2C_TUNER 0xd1

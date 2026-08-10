@@ -14,6 +14,7 @@
 #include <linux/slab.h>
 #include <linux/i2c.h>
 #include <linux/mutex.h>
+#include <linux/moduleparam.h>
 
 #include <media/dvb_frontend.h>
 

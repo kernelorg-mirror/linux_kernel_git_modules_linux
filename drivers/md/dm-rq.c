@@ -9,6 +9,7 @@
 #include "dm-rq.h"
 
 #include <linux/blk-mq.h>
+#include <linux/moduleparam.h>
 
 #define DM_MSG_PREFIX "core-rq"
 

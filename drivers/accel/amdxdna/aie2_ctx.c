@@ -10,6 +10,7 @@
 #include <drm/drm_print.h>
 #include <drm/drm_syncobj.h>
 #include <linux/hmm.h>
+#include <linux/moduleparam.h>
 #include <linux/types.h>
 #include <linux/xarray.h>
 #include <trace/events/amdxdna.h>

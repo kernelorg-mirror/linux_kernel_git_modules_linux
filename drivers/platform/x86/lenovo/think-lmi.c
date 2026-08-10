@@ -20,6 +20,7 @@
 #include <linux/types.h>
 #include <linux/dmi.h>
 #include <linux/wmi.h>
+#include <linux/moduleparam.h>
 #include "../firmware_attributes_class.h"
 #include "think-lmi.h"
 

@@ -20,6 +20,7 @@
 #include <linux/kvm_host.h>
 #include <linux/kvm_irqfd.h>
 #include <linux/sysfs.h>
+#include <linux/moduleparam.h>
 
 #include <asm/irq_remapping.h>
 #include <asm/msr.h>

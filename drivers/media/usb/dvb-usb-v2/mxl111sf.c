@@ -7,6 +7,7 @@
 
 #include <linux/vmalloc.h>
 #include <linux/i2c.h>
+#include <linux/moduleparam.h>
 #include <media/tuner.h>
 
 #include "mxl111sf.h"

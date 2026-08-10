@@ -5,6 +5,8 @@
  * Copyright 2011-2020 NXP
  */
 
+#include <linux/moduleparam.h>
+
 #include "cfg80211.h"
 #include "main.h"
 #include "11n.h"

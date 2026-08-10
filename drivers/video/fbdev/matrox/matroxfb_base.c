@@ -103,6 +103,7 @@
 #include <linux/aperture.h>
 #include <linux/export.h>
 #include <linux/version.h>
+#include <linux/moduleparam.h>
 
 #include "matroxfb_base.h"
 #include "matroxfb_misc.h"

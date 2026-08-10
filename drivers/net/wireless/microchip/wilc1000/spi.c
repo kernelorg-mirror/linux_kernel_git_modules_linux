@@ -9,6 +9,7 @@
 #include <linux/crc7.h>
 #include <linux/crc-itu-t.h>
 #include <linux/gpio/consumer.h>
+#include <linux/moduleparam.h>
 
 #include "netdev.h"
 #include "cfg80211.h"

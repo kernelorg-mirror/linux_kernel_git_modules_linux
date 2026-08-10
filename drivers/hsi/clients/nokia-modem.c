@@ -14,6 +14,7 @@
 #include <linux/of.h>
 #include <linux/of_irq.h>
 #include <linux/hsi/ssi_protocol.h>
+#include <linux/moduleparam.h>
 
 static unsigned int pm = 1;
 module_param(pm, int, 0400);

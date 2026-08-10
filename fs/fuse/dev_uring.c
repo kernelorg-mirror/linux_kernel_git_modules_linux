@@ -12,6 +12,7 @@
 #include <linux/bitmap.h>
 #include <linux/fs.h>
 #include <linux/io_uring/cmd.h>
+#include <linux/moduleparam.h>
 
 static bool __read_mostly enable_uring;
 module_param(enable_uring, bool, 0644);

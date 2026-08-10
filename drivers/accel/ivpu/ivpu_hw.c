@@ -12,6 +12,7 @@
 #include <asm/msr.h>
 #include <linux/dmi.h>
 #include <linux/fault-inject.h>
+#include <linux/moduleparam.h>
 #include <linux/pm_runtime.h>
 
 #ifdef CONFIG_FAULT_INJECTION

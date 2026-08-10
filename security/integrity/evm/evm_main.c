@@ -21,6 +21,7 @@
 #include <linux/magic.h>
 #include <linux/posix_acl_xattr.h>
 #include <linux/lsm_hooks.h>
+#include <linux/moduleparam.h>
 
 #include <crypto/hash.h>
 #include <crypto/hash_info.h>

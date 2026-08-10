@@ -11,6 +11,7 @@
 #include <linux/hid.h>
 #include <linux/backlight.h>
 #include <linux/device.h>
+#include <linux/moduleparam.h>
 
 #include "hid-ids.h"
 

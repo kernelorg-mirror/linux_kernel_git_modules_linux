@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-only
 #include <linux/kvm_host.h>
+#include <linux/moduleparam.h>
 #include <asm/intel_pt.h>
 #include <asm/vmx.h>
 

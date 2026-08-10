@@ -14,6 +14,7 @@
 #include <linux/export.h>
 #include <linux/list.h>
 #include <linux/minmax.h>
+#include <linux/moduleparam.h>
 #include <linux/nospec.h>
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>

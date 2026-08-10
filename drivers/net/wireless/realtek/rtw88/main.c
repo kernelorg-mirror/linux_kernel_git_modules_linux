@@ -3,6 +3,7 @@
  */
 
 #include <linux/devcoredump.h>
+#include <linux/moduleparam.h>
 
 #include "main.h"
 #include "regd.h"

@@ -54,6 +54,7 @@ static struct scsi_transport_template *ahd_linux_transport_template = NULL;
 #include <linux/delay.h>	/* For ssleep/msleep */
 #include <linux/device.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 
 /*
  * Bucket size for counting good commands in between bad ones.

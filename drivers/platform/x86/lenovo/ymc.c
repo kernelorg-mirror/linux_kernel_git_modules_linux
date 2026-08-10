@@ -14,6 +14,7 @@
 #include <linux/input.h>
 #include <linux/input/sparse-keymap.h>
 #include <linux/wmi.h>
+#include <linux/moduleparam.h>
 #include "ideapad-laptop.h"
 
 #define LENOVO_YMC_EVENT_GUID	"06129D99-6083-4164-81AD-F092F9D773A6"

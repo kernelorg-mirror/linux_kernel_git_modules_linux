@@ -18,6 +18,7 @@
 #include <linux/matroxfb.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
+#include <linux/moduleparam.h>
 
 /* **************************************************** */
 

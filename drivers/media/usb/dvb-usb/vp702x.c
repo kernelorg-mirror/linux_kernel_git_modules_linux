@@ -13,6 +13,7 @@
  */
 #include "vp702x.h"
 #include <linux/mutex.h>
+#include <linux/moduleparam.h>
 
 /* debug */
 int dvb_usb_vp702x_debug;

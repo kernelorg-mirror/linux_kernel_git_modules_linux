@@ -4,6 +4,7 @@
 #include <linux/ip.h>
 #include <linux/sort.h>
 #include <linux/udp.h>
+#include <linux/moduleparam.h>
 
 #include "cam.h"
 #include "chan.h"

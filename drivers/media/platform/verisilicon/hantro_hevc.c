@@ -6,6 +6,7 @@
  */
 
 #include <linux/types.h>
+#include <linux/moduleparam.h>
 #include <media/v4l2-mem2mem.h>
 
 #include "hantro.h"

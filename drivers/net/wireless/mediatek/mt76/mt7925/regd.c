@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: BSD-3-Clause-Clear
 /* Copyright (C) 2025 MediaTek Inc. */
 
+#include <linux/moduleparam.h>
 #include "mt7925.h"
 #include "regd.h"
 #include "mcu.h"

@@ -6,6 +6,9 @@
  *
  * see Documentation/driver-api/media/drivers/dvb-usb.rst for more information
  */
+
+#include <linux/moduleparam.h>
+
 #include "az6027.h"
 
 #include "stb0899_drv.h"

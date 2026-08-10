@@ -21,6 +21,9 @@
  *
  * Authors: Ben Skeggs
  */
+
+#include <linux/moduleparam.h>
+
 #include <nvif/push006c.h>
 
 #include <nvif/class.h>

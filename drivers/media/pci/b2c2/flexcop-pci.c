@@ -5,6 +5,8 @@
  * see flexcop.c for copyright information
  */
 
+#include <linux/moduleparam.h>
+
 #define FC_LOG_PREFIX "flexcop-pci"
 #include "flexcop-common.h"
 

@@ -27,6 +27,7 @@
 #include <linux/export.h>
 #include <linux/math64.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 #include <asm/apic.h>
 #include <asm/processor.h>
 #include <asm/mce.h>

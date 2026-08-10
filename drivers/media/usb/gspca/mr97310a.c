@@ -31,6 +31,7 @@
 
 #define MODULE_NAME "mr97310a"
 
+#include <linux/moduleparam.h>
 #include "gspca.h"
 
 #define CAM_TYPE_CIF			0

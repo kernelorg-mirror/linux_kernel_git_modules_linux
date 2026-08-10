@@ -10,6 +10,7 @@
 #include "cx231xx.h"
 #include <linux/kernel.h>
 #include <linux/slab.h>
+#include <linux/moduleparam.h>
 
 #include <media/dvbdev.h>
 #include <media/dmxdev.h>

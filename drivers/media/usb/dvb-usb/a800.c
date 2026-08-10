@@ -10,6 +10,9 @@
  *
  * see Documentation/driver-api/media/drivers/dvb-usb.rst for more information
  */
+
+#include <linux/moduleparam.h>
+
 #include "dibusb.h"
 
 static int debug;

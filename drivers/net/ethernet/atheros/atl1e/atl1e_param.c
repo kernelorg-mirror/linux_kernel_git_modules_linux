@@ -7,6 +7,7 @@
  */
 
 #include <linux/netdevice.h>
+#include <linux/moduleparam.h>
 
 #include "atl1e.h"
 

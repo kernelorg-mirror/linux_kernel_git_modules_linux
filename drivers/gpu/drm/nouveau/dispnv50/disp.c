@@ -33,6 +33,7 @@
 #include <linux/hdmi.h>
 #include <linux/component.h>
 #include <linux/iopoll.h>
+#include <linux/moduleparam.h>
 
 #include <drm/display/drm_dp_helper.h>
 #include <drm/display/drm_scdc_helper.h>

@@ -3,6 +3,7 @@
 #include <linux/fb.h>
 #include <linux/pci.h>
 #include <linux/console.h>
+#include <linux/moduleparam.h>
 
 #include "sm750.h"
 #include "sm750_accel.h"

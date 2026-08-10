@@ -15,6 +15,7 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 #include <linux/of.h>
+#include <linux/moduleparam.h>
 #include "rmi_bus.h"
 #include "rmi_driver.h"
 

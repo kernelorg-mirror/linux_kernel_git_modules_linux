@@ -11,6 +11,7 @@
 #include <linux/slab.h>
 #include <linux/i2c.h>
 #include <linux/mutex.h>
+#include <linux/moduleparam.h>
 #include <asm/div64.h>
 
 #include <linux/int_log.h>

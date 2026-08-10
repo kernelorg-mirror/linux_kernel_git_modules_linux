@@ -15,6 +15,7 @@
 #include <linux/log2.h>
 #include <linux/pci.h>
 #include <net/vxlan.h>
+#include <linux/moduleparam.h>
 
 #include "qlcnic.h"
 #include "qlcnic_sriov.h"

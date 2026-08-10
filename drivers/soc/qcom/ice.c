@@ -17,6 +17,7 @@
 #include <linux/of_platform.h>
 #include <linux/platform_device.h>
 #include <linux/xarray.h>
+#include <linux/moduleparam.h>
 
 #include <linux/firmware/qcom/qcom_scm.h>
 

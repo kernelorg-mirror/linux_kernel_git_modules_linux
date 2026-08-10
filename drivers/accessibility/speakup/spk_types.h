@@ -11,6 +11,7 @@
 #include <linux/wait.h>		/* for wait_queue */
 #include <linux/init.h>		/* for __init */
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/vt_kern.h>
 #include <linux/spinlock.h>
 #include <linux/mutex.h>

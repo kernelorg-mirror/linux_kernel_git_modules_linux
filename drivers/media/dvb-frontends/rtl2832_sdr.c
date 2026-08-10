@@ -22,6 +22,7 @@
 #include <linux/jiffies.h>
 #include <linux/math64.h>
 #include <linux/regmap.h>
+#include <linux/moduleparam.h>
 
 static bool rtl2832_sdr_emulated_fmt;
 module_param_named(emulated_formats, rtl2832_sdr_emulated_fmt, bool, 0644);

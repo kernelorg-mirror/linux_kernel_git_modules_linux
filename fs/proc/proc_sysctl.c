@@ -14,6 +14,7 @@
 #include <linux/mm.h>
 #include <linux/uio.h>
 #include <linux/module.h>
+#include <linux/moduleparam.h>
 #include <linux/bpf-cgroup.h>
 #include <linux/mount.h>
 #include <linux/kmemleak.h>

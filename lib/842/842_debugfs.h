@@ -4,6 +4,7 @@
 #define __842_DEBUGFS_H__
 
 #include <linux/debugfs.h>
+#include <linux/moduleparam.h>
 
 static bool sw842_template_counts;
 module_param_named(template_counts, sw842_template_counts, bool, 0444);

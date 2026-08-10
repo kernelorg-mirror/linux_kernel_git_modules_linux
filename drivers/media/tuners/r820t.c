@@ -26,6 +26,7 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <linux/bitrev.h>
+#include <linux/moduleparam.h>
 
 #include "tuner-i2c.h"
 #include "r820t.h"

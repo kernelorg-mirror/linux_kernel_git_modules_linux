@@ -19,6 +19,7 @@
 #include <linux/videodev2.h>
 #include <linux/i2c.h>
 #include <linux/delay.h>
+#include <linux/moduleparam.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include "au8522.h"

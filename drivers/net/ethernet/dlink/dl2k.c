@@ -9,6 +9,7 @@
 
 #include "dl2k.h"
 #include <linux/dma-mapping.h>
+#include <linux/moduleparam.h>
 
 #define dw32(reg, val)	iowrite32(val, ioaddr + (reg))
 #define dw16(reg, val)	iowrite16(val, ioaddr + (reg))

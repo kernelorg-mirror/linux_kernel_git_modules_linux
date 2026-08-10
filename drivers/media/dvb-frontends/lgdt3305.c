@@ -11,6 +11,7 @@
 #include <linux/dvb/frontend.h>
 #include <linux/slab.h>
 #include <linux/int_log.h>
+#include <linux/moduleparam.h>
 #include "lgdt3305.h"
 
 static int debug;

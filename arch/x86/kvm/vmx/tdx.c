@@ -5,6 +5,7 @@
 #include <asm/fpu/xcr.h>
 #include <linux/misc_cgroup.h>
 #include <linux/mmu_context.h>
+#include <linux/moduleparam.h>
 #include <asm/tdx.h>
 #include <asm/virt.h>
 #include "capabilities.h"

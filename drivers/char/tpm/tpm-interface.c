@@ -26,6 +26,7 @@
 #include <linux/suspend.h>
 #include <linux/freezer.h>
 #include <linux/tpm_eventlog.h>
+#include <linux/moduleparam.h>
 
 #include "tpm.h"
 

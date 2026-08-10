@@ -27,6 +27,7 @@
 #include <linux/sched/debug.h>
 #include <linux/jump_label.h>
 #include <linux/string_choices.h>
+#include <linux/moduleparam.h>
 
 #include <trace/events/ipi.h>
 #define CREATE_TRACE_POINTS

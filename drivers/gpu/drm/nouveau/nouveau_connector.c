@@ -26,6 +26,7 @@
 
 #include <acpi/button.h>
 
+#include <linux/moduleparam.h>
 #include <linux/pm_runtime.h>
 #include <linux/vga_switcheroo.h>
 

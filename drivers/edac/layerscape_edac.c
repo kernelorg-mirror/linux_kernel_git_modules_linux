@@ -16,6 +16,8 @@
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
+#include <linux/moduleparam.h>
+
 #include "edac_module.h"
 #include "fsl_ddr_edac.h"
 

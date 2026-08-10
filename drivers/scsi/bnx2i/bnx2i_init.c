@@ -16,6 +16,8 @@
 
 #include "bnx2i.h"
 
+#include <linux/moduleparam.h>
+
 static struct list_head adapter_list = LIST_HEAD_INIT(adapter_list);
 static u32 adapter_count;
 

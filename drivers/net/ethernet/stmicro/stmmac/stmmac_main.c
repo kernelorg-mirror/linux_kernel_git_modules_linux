@@ -52,6 +52,7 @@
 #include "stmmac_xdp.h"
 #include <linux/reset.h>
 #include <linux/of_mdio.h>
+#include <linux/moduleparam.h>
 #include "dwmac1000.h"
 #include "dwxgmac2.h"
 #include "hwif.h"

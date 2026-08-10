@@ -2,6 +2,8 @@
 /*  Copyright(c) 2021 Intel Corporation. */
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
+#include <linux/moduleparam.h>
+
 #include <asm/cpuid/api.h>
 #include <asm/msr.h>
 #include <asm/sgx.h>

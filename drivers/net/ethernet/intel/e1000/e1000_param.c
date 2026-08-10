@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 /* Copyright(c) 1999 - 2006 Intel Corporation. */
 
+#include <linux/moduleparam.h>
+
 #include "e1000.h"
 
 /* This is the only thing that needs to be changed to adjust the

@@ -3,6 +3,7 @@
  * Copyright (C) 2024-2026 Intel Corporation
  */
 #include <linux/rtnetlink.h>
+#include <linux/moduleparam.h>
 #include <net/mac80211.h>
 
 #include "fw/api/rx.h"

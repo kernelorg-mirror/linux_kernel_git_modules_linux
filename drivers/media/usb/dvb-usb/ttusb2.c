@@ -32,6 +32,7 @@
 #include "lnbp21.h"
 /* CA */
 #include <media/dvb_ca_en50221.h>
+#include <linux/moduleparam.h>
 
 /* debug */
 static int dvb_usb_ttusb2_debug;

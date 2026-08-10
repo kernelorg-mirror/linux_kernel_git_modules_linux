@@ -11,6 +11,7 @@
  *
  */
 #include <linux/edac.h>
+#include <linux/moduleparam.h>
 
 #include "edac_mc.h"
 #include "edac_module.h"

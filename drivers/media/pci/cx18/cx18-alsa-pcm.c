@@ -11,6 +11,7 @@
 
 #include <linux/init.h>
 #include <linux/kernel.h>
+#include <linux/moduleparam.h>
 
 #include <media/v4l2-device.h>
 

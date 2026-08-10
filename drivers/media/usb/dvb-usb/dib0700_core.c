@@ -3,6 +3,9 @@
  *
  *  Copyright (C) 2005-6 DiBcom, SA
  */
+
+#include <linux/moduleparam.h>
+
 #include "dib0700.h"
 
 /* debug */

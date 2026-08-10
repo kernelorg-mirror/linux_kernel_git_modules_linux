@@ -23,6 +23,7 @@
  */
 
 #include <linux/string_helpers.h>
+#include <linux/moduleparam.h>
 
 #include <drm/drm_print.h>
 

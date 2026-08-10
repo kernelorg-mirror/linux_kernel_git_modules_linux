@@ -3,6 +3,7 @@
 
 #include <linux/objtool.h>
 #include <linux/percpu.h>
+#include <linux/moduleparam.h>
 
 #include <asm/debugreg.h>
 #include <asm/mmu_context.h>

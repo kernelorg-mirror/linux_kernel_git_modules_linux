@@ -15,6 +15,7 @@
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
 #include <linux/uaccess.h>
+#include <linux/moduleparam.h>
 
 #include "pmc.h"
 

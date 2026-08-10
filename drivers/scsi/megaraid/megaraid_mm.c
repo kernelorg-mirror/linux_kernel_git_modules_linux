@@ -13,6 +13,7 @@
 #include <linux/sched.h>
 #include <linux/slab.h>
 #include <linux/mutex.h>
+#include <linux/moduleparam.h>
 #include "megaraid_mm.h"
 
 

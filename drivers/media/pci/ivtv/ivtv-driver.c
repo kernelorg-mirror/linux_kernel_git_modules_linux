@@ -42,6 +42,7 @@
 #include "ivtv-controls.h"
 #include "ivtv-gpio.h"
 #include <linux/dma-mapping.h>
+#include <linux/moduleparam.h>
 #include <media/tveeprom.h>
 #include <media/i2c/saa7115.h>
 #include "xc2028.h"

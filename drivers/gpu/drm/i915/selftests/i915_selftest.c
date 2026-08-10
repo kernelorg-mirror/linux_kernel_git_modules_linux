@@ -21,6 +21,7 @@
  * IN THE SOFTWARE.
  */
 
+#include <linux/moduleparam.h>
 #include <linux/random.h>
 
 #include "gt/intel_gt.h"

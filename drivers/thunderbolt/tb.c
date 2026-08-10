@@ -11,6 +11,7 @@
 #include <linux/delay.h>
 #include <linux/pm_runtime.h>
 #include <linux/platform_data/x86/apple.h>
+#include <linux/moduleparam.h>
 
 #include "tb.h"
 #include "tb_regs.h"

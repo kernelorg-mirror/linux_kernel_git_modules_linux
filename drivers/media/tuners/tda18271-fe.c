@@ -11,6 +11,7 @@
 
 #include <linux/delay.h>
 #include <linux/videodev2.h>
+#include <linux/moduleparam.h>
 
 int tda18271_debug;
 module_param_named(debug, tda18271_debug, int, 0644);

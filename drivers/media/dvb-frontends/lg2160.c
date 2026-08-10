@@ -7,6 +7,7 @@
 
 #include <linux/jiffies.h>
 #include <linux/dvb/frontend.h>
+#include <linux/moduleparam.h>
 #include "lg2160.h"
 
 static int debug;

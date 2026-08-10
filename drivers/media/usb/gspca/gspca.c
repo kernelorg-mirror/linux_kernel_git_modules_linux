@@ -24,6 +24,7 @@
 #include <asm/page.h>
 #include <linux/uaccess.h>
 #include <linux/ktime.h>
+#include <linux/moduleparam.h>
 #include <media/v4l2-ioctl.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fh.h>

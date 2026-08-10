@@ -32,6 +32,8 @@
 #include "stv6110x.h"
 #include "stv090x.h"
 
+#include <linux/moduleparam.h>
+
 /* module parameters */
 DVB_DEFINE_MOD_OPT_ADAPTER_NR(adapter_nr);
 

@@ -30,6 +30,7 @@
 #include <linux/bitfield.h>
 #include <linux/pci.h>
 #include <linux/platform_profile.h>
+#include <linux/moduleparam.h>
 #include "processor_thermal_device.h"
 
 #define SOC_POWER_SLIDER_OFFSET	0x5B38

@@ -11,6 +11,7 @@
 #include <linux/bug.h>
 #include <linux/list.h>
 #include <linux/string_choices.h>
+#include <linux/moduleparam.h>
 #include "messages.h"
 #include "ctree.h"
 #include "discard.h"

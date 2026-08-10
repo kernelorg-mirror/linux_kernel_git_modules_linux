@@ -14,6 +14,7 @@
 #define MODULE_NAME "pac207"
 
 #include <linux/input.h>
+#include <linux/moduleparam.h>
 #include "gspca.h"
 /* Include pac common sof detection functions */
 #include "pac_common.h"

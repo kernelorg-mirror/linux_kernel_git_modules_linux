@@ -13,6 +13,7 @@
 #include <linux/errno.h>
 #include <linux/firmware.h>
 #include <linux/workqueue.h>
+#include <linux/moduleparam.h>
 #include <sound/tlv.h>
 #include <uapi/sound/sof/tokens.h>
 #include "sof-priv.h"

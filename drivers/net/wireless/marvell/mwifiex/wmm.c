@@ -5,6 +5,8 @@
  * Copyright 2011-2020 NXP
  */
 
+#include <linux/moduleparam.h>
+
 #include "decl.h"
 #include "ioctl.h"
 #include "util.h"

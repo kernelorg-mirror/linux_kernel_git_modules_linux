@@ -4,6 +4,8 @@
  *
  */
 
+#include <linux/moduleparam.h>
+
 #include "aspm.h"
 
 /* Time after which the timer interrupt will re-enable ASPM */

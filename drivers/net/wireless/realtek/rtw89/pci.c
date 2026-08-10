@@ -3,6 +3,7 @@
  */
 
 #include <linux/pci.h>
+#include <linux/moduleparam.h>
 
 #include "mac.h"
 #include "pci.h"

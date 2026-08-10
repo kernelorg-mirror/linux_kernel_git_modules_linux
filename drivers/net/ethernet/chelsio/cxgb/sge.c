@@ -44,6 +44,7 @@
 #include <linux/if_arp.h>
 #include <linux/slab.h>
 #include <linux/prefetch.h>
+#include <linux/moduleparam.h>
 
 #include "cpl5_cmd.h"
 #include "sge.h"
