@@ -15,10 +15,7 @@
 
 #include <linux/spinlock.h>
 #include <linux/refcount.h>
-
-struct kref {
-	refcount_t refcount;
-};
+#include <linux/kref_types.h>
 
 #define KREF_INIT(n)	{ .refcount = REFCOUNT_INIT(n), }
 
