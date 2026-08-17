@@ -36,15 +36,7 @@
 #include <linux/rbtree.h>
 #include <linux/seqlock.h>
 #include <linux/rcupdate.h>
-
-struct latch_tree_node {
-	struct rb_node node[2];
-};
-
-struct latch_tree_root {
-	seqcount_latch_t	seq;
-	struct rb_root		tree[2];
-};
+#include <linux/rbtree_latch_types.h>
 
 /**
  * struct latch_tree_ops - operators to define the tree order
