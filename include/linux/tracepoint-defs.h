@@ -8,10 +8,10 @@
  * trace_print_flags{_u64}. Otherwise linux/tracepoint.h should be used.
  */
 
-#include <linux/atomic.h>
+#include <linux/compiler_attributes.h>
+#include <linux/compiler_types.h>
 #include <linux/static_key.h>
-
-struct static_call_key;
+#include <linux/types.h>
 
 struct trace_print_flags {
 	unsigned long		mask;
