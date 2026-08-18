@@ -26,7 +26,6 @@
 #include <linux/tracepoint-defs.h>
 #include <linux/srcu.h>
 #include <linux/static_call_types.h>
-#include <linux/dynamic_debug.h>
 #include <linux/percpu.h>
 
 #include <uapi/linux/elf.h>
@@ -572,7 +571,10 @@ struct module {
 	unsigned int num_ei_funcs;
 #endif
 #ifdef CONFIG_DYNAMIC_DEBUG_CORE
-	struct _ddebug_info dyndbg_info;
+	struct _ddebug *dyndbg_descs;
+	unsigned int num_dyndbg_descs;
+	struct ddebug_class_map *dyndbg_classes;
+	unsigned int num_dyndbg_classes;
 #endif
 } ____cacheline_aligned __randomize_layout;
 #ifndef MODULE_ARCH_INIT

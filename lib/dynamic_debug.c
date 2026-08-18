@@ -1348,11 +1348,19 @@ static int ddebug_module_notify(struct notifier_block *self, unsigned long val,
 	int ret = 0;
 
 	switch (val) {
-	case MODULE_STATE_COMING:
-		ret = ddebug_add_module(&mod->dyndbg_info, mod->name);
+	case MODULE_STATE_COMING: {
+		struct _ddebug_info di = {
+			.descs = mod->dyndbg_descs,
+			.classes = mod->dyndbg_classes,
+			.num_descs = mod->num_dyndbg_descs,
+			.num_classes = mod->num_dyndbg_classes,
+		};
+
+		ret = ddebug_add_module(&di, mod->name);
 		if (ret)
 			WARN(1, "Failed to allocate memory: dyndbg may not work properly.\n");
 		break;
+	}
 	case MODULE_STATE_GOING:
 		ddebug_remove_module(mod->name);
 		break;
