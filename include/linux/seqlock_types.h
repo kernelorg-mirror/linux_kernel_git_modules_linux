@@ -72,6 +72,20 @@ SEQCOUNT_LOCKNAME(mutex,        struct mutex,    true,     mutex)
 #undef SEQCOUNT_LOCKNAME
 
 /*
+ * Latch sequence counters (seqcount_latch_t)
+ *
+ * A sequence counter variant where the counter even/odd value is used to
+ * switch between two copies of protected data. This allows the read path,
+ * typically NMIs, to safely interrupt the write side critical section.
+ *
+ * As the write sections are fully preemptible, no special handling for
+ * PREEMPT_RT is needed.
+ */
+typedef struct {
+	seqcount_t seqcount;
+} seqcount_latch_t;
+
+/*
  * Sequential locks (seqlock_t)
  *
  * Sequence counters with an embedded spinlock for writer serialization
