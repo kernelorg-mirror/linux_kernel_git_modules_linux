@@ -9,27 +9,24 @@
 #ifndef _LINUX_MODULE_H
 #define _LINUX_MODULE_H
 
-#include <linux/list.h>
-#include <linux/stat.h>
 #include <linux/buildid.h>
-#include <linux/compiler.h>
 #include <linux/cache.h>
 #include <linux/cleanup.h>
-#include <linux/kmod.h>
+#include <linux/compiler.h>
 #include <linux/init.h>
-#include <linux/stringify.h>
-#include <linux/kobject.h>
+#include <linux/kmod.h>
+#include <linux/kobject_types.h>
 #include <linux/module_info.h>
-#include <linux/jump_label.h>
-#include <linux/export.h>
-#include <linux/rbtree_latch.h>
+#include <linux/mutex_types.h>
+#include <linux/rbtree_latch_types.h>
+#include <linux/stringify.h>
+#include <linux/sysfs_types.h>
 #include <linux/tracepoint-defs.h>
-#include <linux/srcu.h>
-#include <linux/static_call_types.h>
-#include <linux/percpu.h>
+#include <linux/types.h>
 
 #include <uapi/linux/elf.h>
 #include <asm/module.h>
+#include <asm/percpu.h>
 
 struct modversion_info {
 	unsigned long crc;
@@ -281,7 +278,7 @@ static typeof(name) __mod_device_table(type, name)			\
 			.mattr	= {					\
 				.attr	= {				\
 					.name	= "version",		\
-					.mode	= S_IRUGO,		\
+					.mode	= 0444,			\
 				},					\
 				.show	= __modver_version_show,	\
 			},						\
