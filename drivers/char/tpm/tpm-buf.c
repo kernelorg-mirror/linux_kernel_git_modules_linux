@@ -3,7 +3,9 @@
  * Handling of TPM command and other buffers.
  */
 
+#include <linux/bug.h>
 #include <linux/module.h>
+#include <linux/string.h>
 #include <linux/tpm_command.h>
 #include <linux/tpm_buf.h>
 

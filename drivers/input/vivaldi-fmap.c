@@ -10,6 +10,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/types.h>
+#include <linux/sysfs.h>
 
 /**
  * vivaldi_function_row_physmap_show - Print vivaldi function row physmap attribute

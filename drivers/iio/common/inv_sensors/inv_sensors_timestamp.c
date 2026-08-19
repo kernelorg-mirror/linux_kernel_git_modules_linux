@@ -7,6 +7,8 @@
 #include <linux/kernel.h>
 #include <linux/math64.h>
 #include <linux/module.h>
+#include <linux/string.h>
+#include <linux/time.h>
 
 #include <linux/iio/common/inv_sensors_timestamp.h>
 

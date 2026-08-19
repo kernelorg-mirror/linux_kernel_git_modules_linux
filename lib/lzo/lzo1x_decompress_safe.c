@@ -18,6 +18,7 @@
 #endif
 #include <linux/unaligned.h>
 #include <linux/lzo.h>
+#include <linux/string.h>
 #include "lzodefs.h"
 
 #define HAVE_IP(x)      ((size_t)(ip_end - ip) >= (size_t)(x))

@@ -273,6 +273,7 @@ struct p9_dirent {
 	char d_name[256];
 };
 
+struct fs_context;
 struct iov_iter;
 
 int p9_show_client_options(struct seq_file *m, struct p9_client *clnt);

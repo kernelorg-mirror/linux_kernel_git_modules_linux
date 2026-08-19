@@ -13,6 +13,7 @@
 #include <linux/compiler.h>
 
 struct device;
+struct device_node;
 struct mux_control;
 struct mux_state;
 

@@ -199,6 +199,7 @@ queue:
 #include <linux/sched/clock.h>
 #include <linux/module.h>
 #include <linux/init.h>
+#include <linux/timekeeping.h>
 
 static struct plist_node __initdata test_node[241];
 

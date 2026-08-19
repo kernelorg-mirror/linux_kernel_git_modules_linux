@@ -20,6 +20,7 @@
 #include <linux/bitops.h>
 #include <linux/list.h>
 #include <linux/types.h>
+#include <linux/hrtimer_types.h>
 
 /*
  * Deterministic automaton per-object variables.

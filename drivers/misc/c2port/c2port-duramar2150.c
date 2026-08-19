@@ -14,6 +14,7 @@
 #include <linux/io.h>
 #include <linux/ioport.h>
 #include <linux/c2port.h>
+#include <linux/mutex.h>
 
 #define DATA_PORT	0x325
 #define DIR_PORT	0x326

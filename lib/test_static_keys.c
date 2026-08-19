@@ -10,6 +10,7 @@
 
 #include <linux/module.h>
 #include <linux/jump_label.h>
+#include <linux/array_size.h>
 
 /* old keys */
 struct static_key old_true_key	= STATIC_KEY_INIT_TRUE;

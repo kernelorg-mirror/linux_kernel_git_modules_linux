@@ -11,6 +11,7 @@
 #include <linux/slab.h>
 #include <linux/sysfs.h>
 #include <linux/capability.h>
+#include <linux/kobject.h>
 #include <linux/iscsi_boot_sysfs.h>
 
 

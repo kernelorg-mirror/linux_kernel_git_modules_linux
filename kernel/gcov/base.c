@@ -20,6 +20,7 @@
 #include <linux/module.h>
 #include <linux/mutex.h>
 #include <linux/sched.h>
+#include <linux/notifier.h>
 #include "gcov.h"
 
 int gcov_events_enabled;

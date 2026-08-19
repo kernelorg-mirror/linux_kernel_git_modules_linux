@@ -9,6 +9,8 @@
 #include <linux/module.h>
 #include <linux/printk.h>
 #include <linux/math64.h>
+#include <linux/array_size.h>
+#include <linux/timekeeping.h>
 
 typedef struct { u64 a; u64 b; u64 d; u64 result; uint round_up;} test_params;
 

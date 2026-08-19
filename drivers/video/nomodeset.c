@@ -2,6 +2,7 @@
 
 #include <linux/module.h>
 #include <linux/types.h>
+#include <linux/printk.h>
 
 #include <video/nomodeset.h>
 

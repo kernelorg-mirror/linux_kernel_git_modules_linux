@@ -16,6 +16,7 @@
 #include <linux/kernel.h>
 #include <linux/unaligned.h>
 #include <linux/lzo.h>
+#include <linux/string.h>
 #include "lzodefs.h"
 
 #undef LZO_UNSAFE

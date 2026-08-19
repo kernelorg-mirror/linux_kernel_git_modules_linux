@@ -12,6 +12,8 @@
 #include <linux/prandom.h>
 #include <linux/slab.h>
 #include <linux/ww_mutex.h>
+#include <linux/kobject.h>
+#include <linux/sysfs.h>
 
 static DEFINE_WD_CLASS(wd_class);
 static DEFINE_WW_CLASS(ww_class);

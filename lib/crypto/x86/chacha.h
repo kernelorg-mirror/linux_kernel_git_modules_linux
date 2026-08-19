@@ -9,6 +9,7 @@
 #include <linux/jump_label.h>
 #include <linux/kernel.h>
 #include <linux/sizes.h>
+#include <linux/cpufeature.h>
 
 asmlinkage void chacha_block_xor_ssse3(const struct chacha_state *state,
 				       u8 *dst, const u8 *src,

@@ -22,6 +22,8 @@
 #include <linux/module.h>
 #include <linux/printk.h>
 #include <linux/random.h>
+#include <linux/bitmap.h>
+#include <linux/timekeeping.h>
 
 #define BITMAP_LEN	(4096UL * 8 * 10)
 #define SPARSE		500

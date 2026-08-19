@@ -8,6 +8,7 @@
 #include <linux/jump_label.h>
 #include <linux/kernel.h>
 #include <linux/sizes.h>
+#include <linux/cpufeature.h>
 
 struct poly1305_arch_internal {
 	union {
